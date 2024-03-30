@@ -837,17 +837,9 @@ if (info) {
     info.style.display = "none";
 }
 
-
-// window.addEventListener('resize', function () {
-//     var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-//     var height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-//     info.style.top = 120 - (911 - height) / 2 + 'px';
-//     info.style.left = 425 - (1920 - width) / 2 + 'px';
-// })
-
 btn.onmousedown = function () {
     if (!day) {
-        btn_name.textContent = "切換時間 (4/21->4/20)";
+        btn_name.textContent = "切換日期 (4/21->4/20)";
         background.src = "./map_d2.webp";
         stalls_1.forEach(function (stall) {
             stall.style.display = "block";
@@ -857,7 +849,7 @@ btn.onmousedown = function () {
         })
     }
     else {
-        btn_name.textContent = "切換時間 (4/20->4/21)";
+        btn_name.textContent = "切換日期 (4/20->4/21)";
         background.src = "./map_d1.webp";
         stalls_1.forEach(function (stall) {
             stall.style.display = "none";
@@ -869,32 +861,23 @@ btn.onmousedown = function () {
     day = !day;
 };
 
-map.addEventListener('mousedown', function (e) {
-    if (info.style.display == "none") dragging = true;
-    else dragging = false;
+if (info) {
+    map.addEventListener('mousedown', function (e) {
+        if (info.style.display == "none") dragging = true;
+        else dragging = false;
 
-    offset.x = e.clientX - map.getBoundingClientRect().left;
-    offset.y = e.clientY - map.getBoundingClientRect().top;
-})
+        offset.x = e.clientX - map.getBoundingClientRect().left;
+        offset.y = e.clientY - map.getBoundingClientRect().top;
+    })
 
-// map.addEventListener('mouseup', function(){
-//     dragging = false;
-//     map.style.cursor = 'grab';
-// })
+    info.onmousedown = function () {
+        info.style.display = "none";
+    };
 
-// map.addEventListener('mousemove', function(e){
-//     if(!dragging) return;
 
-//     var x = e.clientX - offset.x;
-//     var y = e.clientY - offset.y;
+}
 
-//     map.style.left = x + "px";
-//     map.style.top = y + "px";
-// })
 
-info.onmousedown = function () {
-    info.style.display = "none";
-};
 
 stalls.forEach(function (stall) {
     stall.addEventListener('mousedown', function () {
@@ -905,7 +888,6 @@ stalls.forEach(function (stall) {
         var type = day1_info[num].type;
 
         stall_name.textContent = name;
-        // stall_name.style.left = 262 - (name.length * 48) / 2 + "px";
         stall_num.textContent = num;
         stall_date.textContent = date;
         stall_type.textContent = type;
@@ -924,7 +906,6 @@ stalls_1.forEach(function (stall) {
         var type = day2_info[num].type;
 
         stall_name.textContent = name;
-        // stall_name.style.left = 262 - (name.length * 48) / 2 + "px";
         stall_num.textContent = num;
         stall_date.textContent = date;
         stall_type.textContent = type;

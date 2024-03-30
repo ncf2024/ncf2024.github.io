@@ -262,7 +262,7 @@ h6 {
     margin-top: 1rem;
 }
 
-
+/* stand map */
 #stall_name {
     text-align: center;
 }
@@ -636,16 +636,6 @@ h6 {
         margin-top: 35vh;
     }
 
-
-
-
-
-
-
-
-
-
-
     /* stage */
     .group-intro {
         width: 75vw;
@@ -794,7 +784,6 @@ footer {
 .co-organizer {
     border: 2px solid #cce1e044;
     border-radius: 5px;
-    /* background-color: #cce1e044; */
     width: 70vw;
     margin-bottom: 5vh;
     margin-top: 3vh;
