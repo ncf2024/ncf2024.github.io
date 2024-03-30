@@ -210,6 +210,16 @@ h6 {
     color: #cce1e0;
 }
 
+.stand-map {
+    background-color: #00000035;
+    transform: scale(0.85);
+    width: 90vw;
+    height: auto;
+    display: block;
+}
+
+
+
 .service-rules {
     background-color: #0d2238c4;
     border-radius: 5px;
@@ -254,9 +264,66 @@ h6 {
 
 
 
+
 /* rwd */
 /* 在 xl 以上的尺寸 */
 @media (min-width: 1200px) {
+
+    /* stand map */
+    .change-button {
+        width: 30rem;
+        height: 4rem;
+        font-size: 2rem;
+        left: 50vw;
+        text-align: center;
+        margin-top: 3vh;
+    }
+
+    .interactive-map {
+        margin-left: 5vw;
+        width: 80vw;
+        height: 90vh;
+        overflow-x: auto;
+    }
+
+    .popup-info {
+        width: 70vw;
+        height: auto;
+        left: 10vw;
+        top: 30vh;
+        position: absolute;
+        padding-bottom: 5vh;
+    }
+
+    .stallpic-bg {
+        width: 20vw;
+        height: 30vh;
+        left: 5vw;
+        top: 10vh;
+    }
+
+    .stallpic {
+        width: 18vw;
+        height: 28vh;
+        left: 6vw;
+        top: 11vh;
+    }
+
+    .stall-bar {
+        left: 28vw;
+        top: 10vh;
+
+    }
+
+    .stall-text {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 2.4rem;
+        width: auto;
+        height: auto;
+        margin-left: 30vw;
+        margin-top: 3vh;
+    }
 
     /* stage */
 
@@ -359,6 +426,63 @@ h6 {
 /* 在 md 以上 xl 以下的尺寸 */
 @media (min-width: 768px) and (max-width: 1199px) {
 
+    /* stand map */
+    .change-button {
+        width: 30rem;
+        height: 4rem;
+        font-size: 2rem;
+        left: 10vw;
+        text-align: center;
+        margin-top: 3vh;
+    }
+
+    .interactive-map {
+        margin-top: 3vh;
+        margin-left: 5vw;
+        width: 80vw;
+        height: 90vh;
+        overflow-x: auto;
+    }
+
+    .popup-info {
+        width: 70vw;
+        height: auto;
+        left: 10vw;
+        top: 10vh;
+        position: absolute;
+        padding: 3vh;
+    }
+
+    .stallpic-bg {
+        width: 60vw;
+        height: 40vh;
+        left: 5vw;
+        top: 5vh;
+    }
+
+    .stallpic {
+        width: 54vw;
+        height: 34vh;
+        left: 8vw;
+        top: 8vh;
+    }
+
+    .stall-bar {
+        display: none;
+    }
+
+
+    .stall-text {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 3.5rem;
+        width: auto;
+        height: auto;
+        margin-left: 3vw;
+        margin-top: 45vh;
+    }
+
+
     /* stage */
 
     .team-name {
@@ -450,8 +574,75 @@ h6 {
 /* 在 md 以下的尺寸 */
 @media (max-width: 767px) {
 
-    /* stage */
+    /* stand map */
+    .stand-map {
+        margin-top: -5vh;
+    }
 
+    .change-button {
+        width: 16rem;
+        height: 3rem;
+        font-size: 1rem;
+        left: 10vw;
+        text-align: center;
+        margin-top: 3vh;
+    }
+
+    .interactive-map {
+        margin-top: 3vh;
+        margin-left: 5vw;
+        width: 80vw;
+        height: 90vh;
+        overflow-x: auto;
+    }
+
+    .popup-info {
+        width: 80vw;
+        height: auto;
+        left: 5vw;
+        top: 15vh;
+        position: absolute;
+        padding: 3vh;
+    }
+
+    .stallpic-bg {
+        width: 60vw;
+        height: 30vh;
+        left: 10vw;
+        top: 5vh;
+    }
+
+    .stallpic {
+        width: 56vw;
+        height: 28vh;
+        left: 12vw;
+        top: 6vh;
+    }
+
+    .stall-bar {
+        display: none;
+    }
+
+    .stall-text {
+        font-size: 1.4rem;
+        font-weight: 700;
+        line-height: 2rem;
+        width: auto;
+        height: auto;
+        margin-top: 35vh;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* stage */
     .group-intro {
         width: 75vw;
         height: 85vh;
@@ -556,7 +747,9 @@ h6 {
 }
 
 
-
+#stall_name {
+    text-align: center;
+}
 
 
 

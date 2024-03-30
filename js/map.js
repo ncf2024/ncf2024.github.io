@@ -1,6 +1,6 @@
 var dragging = false;
 var day = false;
-var offset = {x: 0, y: 0};
+var offset = { x: 0, y: 0 };
 
 var map = document.getElementById("map");
 var info = document.getElementById("info");
@@ -13,7 +13,7 @@ var stall_num = document.getElementById("stall_num");
 var stall_date = document.getElementById("stall_date");
 var stall_type = document.getElementById("stall_type");
 
-var stalls   = document.querySelectorAll(".stall_1");
+var stalls = document.querySelectorAll(".stall_1");
 var stalls_1 = document.querySelectorAll(".stall_2");
 
 const day1_info = {
@@ -22,77 +22,77 @@ const day1_info = {
         "name": "もりトピア",
         "stall": "1",
         "day": "2",
-        "type": "-詳情洽超連結-"
+        "type": "-詳情見「舞台活動」專區-"
     },
     "A3": {
         "url": "./stall_pics/03社畜也想跳舞-宣傳照.jpg",
         "name": "社畜也想跳舞",
         "stall": "1",
         "day": "2",
-        "type": "-詳情洽超連結-"
+        "type": "-詳情見「舞台活動」專區-"
     },
     "A4": {
         "url": "./stall_pics/04無限のスターダスト.jpg",
         "name": "無限のスターダスト",
         "stall": "1",
         "day": "2",
-        "type": "-詳情洽超連結-"
+        "type": "-詳情見「舞台活動」專區-"
     },
     "A5": {
         "url": "./stall_pics/05同担拒否團體照.jpg",
         "name": "同担拒否",
         "stall": "1",
         "day": "2",
-        "type": "-詳情洽超連結-"
+        "type": "-詳情見「舞台活動」專區-"
     },
     "A6": {
         "url": "./stall_pics/06Under the Rose 守密者團體照.jpg",
         "name": "Under the Rose 守密者",
         "stall": "1",
         "day": "2",
-        "type": "-詳情洽超連結-"
+        "type": "-詳情見「舞台活動」專區-"
     },
     "A7": {
         "url": "./stall_pics/07存在証明和風主視覺.jpg",
         "name": "存在証明",
         "stall": "1",
         "day": "2",
-        "type": "-詳情洽超連結-"
+        "type": "-詳情見「舞台活動」專區-"
     },
     "A8": {
         "url": "./stall_pics/08虹綿菓子宣傳照.png",
         "name": "虹綿菓子",
         "stall": "1",
         "day": "2",
-        "type": "-詳情洽超連結-"
+        "type": "-詳情見「舞台活動」專區-"
     },
     "A9": {
         "url": "./stall_pics/09Nomona-宣傳照片.JPG",
         "name": "Nomona",
         "stall": "1",
         "day": "2",
-        "type": "-詳情洽超連結-"
+        "type": "-詳情見「舞台活動」專區-"
     },
     "A10": {
         "url": "./stall_pics/10薄荷彈珠汽水宣傳照.JPG",
         "name": "薄荷彈珠汽水",
         "stall": "1",
         "day": "2",
-        "type": "-詳情洽超連結-"
+        "type": "-詳情見「舞台活動」專區-"
     },
     "A11": {
         "url": "./stall_pics/11悠洛YoLo-OvO宣傳照.png",
         "name": "悠洛",
         "stall": "1",
         "day": "2",
-        "type": "-詳情洽超連結-"
+        "type": "-詳情見「舞台活動」專區-"
     },
     "A12": {
         "url": "./stall_pics/12羅曼史少女＆白星夢.jpg",
         "name": "羅曼史少女＆白星夢",
         "stall": "1",
         "day": "2",
-        "type": "-詳情洽超連結-"
+        "type": "-詳情見「舞台活動」專區-"
     },
     "C1": {
         "url": "./blank.png",
@@ -835,66 +835,66 @@ const day2_info = {
 
 info.style.display = "none";
 
-window.addEventListener('resize', function(){
-    var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-    var height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-    info.style.top = 120 - (911 - height)/2 + 'px';
-    info.style.left = 425 - (1920 - width)/2 + 'px';
-})
+// window.addEventListener('resize', function () {
+//     var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+//     var height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+//     info.style.top = 120 - (911 - height) / 2 + 'px';
+//     info.style.left = 425 - (1920 - width) / 2 + 'px';
+// })
 
-btn.onmousedown = function(){
-    if(!day){
+btn.onmousedown = function () {
+    if (!day) {
         btn_name.textContent = "切換時間 (4/21->4/20)";
         background.src = "./map_d2.png";
-        stalls_1.forEach(function(stall){
+        stalls_1.forEach(function (stall) {
             stall.style.display = "block";
         })
-        stalls.forEach(function(stall){
+        stalls.forEach(function (stall) {
             stall.style.display = "none";
         })
     }
-    else{
+    else {
         btn_name.textContent = "切換時間 (4/20->4/21)";
         background.src = "./map_d1.png";
-        stalls_1.forEach(function(stall){
+        stalls_1.forEach(function (stall) {
             stall.style.display = "none";
         })
-        stalls.forEach(function(stall){
+        stalls.forEach(function (stall) {
             stall.style.display = "block";
         })
     }
     day = !day;
 };
 
-map.addEventListener('mousedown', function(e){
-    if(info.style.display == "none") dragging = true;
+map.addEventListener('mousedown', function (e) {
+    if (info.style.display == "none") dragging = true;
     else dragging = false;
 
     offset.x = e.clientX - map.getBoundingClientRect().left;
     offset.y = e.clientY - map.getBoundingClientRect().top;
 })
 
-map.addEventListener('mouseup', function(){
-    dragging = false;
-    map.style.cursor = 'grab';
-})
+// map.addEventListener('mouseup', function(){
+//     dragging = false;
+//     map.style.cursor = 'grab';
+// })
 
-map.addEventListener('mousemove', function(e){
-    if(!dragging) return;
+// map.addEventListener('mousemove', function(e){
+//     if(!dragging) return;
 
-    var x = e.clientX - offset.x;
-    var y = e.clientY - offset.y;
+//     var x = e.clientX - offset.x;
+//     var y = e.clientY - offset.y;
 
-    map.style.left = x + "px";
-    map.style.top = y + "px";
-})
+//     map.style.left = x + "px";
+//     map.style.top = y + "px";
+// })
 
-info.onmousedown = function() {
+info.onmousedown = function () {
     info.style.display = "none";
 };
 
-stalls.forEach(function(stall){
-    stall.addEventListener('mousedown', function(){
+stalls.forEach(function (stall) {
+    stall.addEventListener('mousedown', function () {
         var num = stall.id;
         var name = day1_info[num].name;
         var src = day1_info[num].url;
@@ -902,7 +902,7 @@ stalls.forEach(function(stall){
         var type = day1_info[num].type;
 
         stall_name.textContent = name;
-        stall_name.style.left = 262 - (name.length * 48) / 2 + "px";
+        // stall_name.style.left = 262 - (name.length * 48) / 2 + "px";
         stall_num.textContent = num;
         stall_date.textContent = date;
         stall_type.textContent = type;
@@ -911,9 +911,9 @@ stalls.forEach(function(stall){
     })
 })
 
-stalls_1.forEach(function(stall){
+stalls_1.forEach(function (stall) {
     stall.style.display = "none";
-    stall.addEventListener('mousedown', function(){
+    stall.addEventListener('mousedown', function () {
         var num = stall.id;
         var name = day2_info[num].name;
         var src = day2_info[num].url;
