@@ -921,7 +921,7 @@ stalls_1.forEach(function (stall) {
         var type = day2_info[num].type;
 
         stall_name.textContent = name;
-        stall_name.style.left = 262 - (name.length * 48) / 2 + "px";
+        // stall_name.style.left = 262 - (name.length * 48) / 2 + "px";
         stall_num.textContent = num;
         stall_date.textContent = date;
         stall_type.textContent = type;
