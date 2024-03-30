@@ -210,13 +210,6 @@ h6 {
     color: #cce1e0;
 }
 
-.stand-map {
-    background-color: #00000035;
-    transform: scale(0.85);
-    width: 90vw;
-    height: auto;
-    display: block;
-}
 
 
 
@@ -267,6 +260,17 @@ h6 {
     text-align: center;
 }
 
+.stand-map {
+    background-color: #00000035;
+    transform: scale(0.85);
+    width: 90vw;
+    height: auto;
+    padding-bottom: 5vh;
+    display: block;
+}
+
+
+
 /* rwd */
 /* 在 xl 以上的尺寸 */
 @media (min-width: 1200px) {
@@ -290,6 +294,7 @@ h6 {
 
     .popup-info {
         width: 70vw;
+        min-height: 50vh;
         height: auto;
         left: 10vw;
         top: 30vh;
@@ -454,6 +459,7 @@ h6 {
         top: 10vh;
         position: absolute;
         padding: 3vh;
+        min-height: 50vh;
     }
 
     .stallpic-bg {
@@ -607,6 +613,7 @@ h6 {
         top: 15vh;
         position: absolute;
         padding: 3vh;
+        min-height: 40vh;
     }
 
     .stallpic-bg {
