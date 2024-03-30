@@ -263,7 +263,9 @@ h6 {
 }
 
 
-
+#stall_name {
+    text-align: center;
+}
 
 /* rwd */
 /* 在 xl 以上的尺寸 */
@@ -426,6 +428,7 @@ h6 {
 /* 在 md 以上 xl 以下的尺寸 */
 @media (min-width: 768px) and (max-width: 1199px) {
 
+
     /* stand map */
     .change-button {
         width: 30rem;
@@ -573,6 +576,7 @@ h6 {
 
 /* 在 md 以下的尺寸 */
 @media (max-width: 767px) {
+
 
     /* stand map */
     .stand-map {
@@ -747,9 +751,6 @@ h6 {
 }
 
 
-#stall_name {
-    text-align: center;
-}
 
 
 
