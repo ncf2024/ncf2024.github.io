@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+    <head>
+        <meta charset="utf-8">
+        <title>NCF 攤位地圖</title>
+        <title>Using jf open 粉圓 Font</title>
+        <style>
+            /* Define @font-face rule */
+            @font-face {
+                font-family: 'jf open 粉圓';
+                src: url('./jf-openhuninn-2.0.ttf') format('truetype'), /* specify font file path */
+            }
+    
+            body {
+                font-family: 'jf open 粉圓', sans-serif; /* use the font-family */
+            }
+    
+            .info {
+                font-family: 'jf open 粉圓', sans-serif; /* use the font-family */
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(255, 254, 251);">        
+        <div style="width: 100%; height: 100%; left: 250px; top: 25px; position: relative; background: white" id="map">
+            <img style="width: 1500px; height: 854px; left: -23px; top: -15px; position: absolute" draggable="false" src="./map_d1.png" id="back"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 543px; top: 415px; position: absolute; border: 3px #4b5866 solid" src="./number/A1.jpg" draggable="false" id="A1"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 543px; top: 440px; position: absolute; border: 3px #4b5866 solid" src="./number/A2.jpg" draggable="false" id="A2"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 543px; top: 465px; position: absolute; border: 3px #4b5866 solid" src="./number/A3.jpg" draggable="false" id="A3"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 543px; top: 489px; position: absolute; border: 3px #4b5866 solid" src="./number/A4.jpg" draggable="false" id="A4"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 594px; top: 415px; position: absolute; border: 3px #4b5866 solid" src="./number/A5.jpg" draggable="false" id="A5"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 594px; top: 440px; position: absolute; border: 3px #4b5866 solid" src="./number/A6.jpg" draggable="false" id="A6"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 594px; top: 465px; position: absolute; border: 3px #4b5866 solid" src="./number/A7.jpg" draggable="false" id="A7"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 594px; top: 489px; position: absolute; border: 3px #4b5866 solid" src="./number/A8.jpg" draggable="false" id="A8"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 647px; top: 415px; position: absolute; border: 3px #4b5866 solid" src="./number/A9.jpg" draggable="false" id="A9"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 647px; top: 440px; position: absolute; border: 3px #4b5866 solid" src="./number/A10.jpg" draggable="false" id="A10"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 647px; top: 465px; position: absolute; border: 3px #4b5866 solid" src="./number/A11.jpg" draggable="false" id="A11"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 647px; top: 489px; position: absolute; border: 3px #4b5866 solid" src="./number/A12.jpg" draggable="false" id="A12"/>
+            <img class="stall_1" style="width: 54px; height: 20px; left: 630px; top: 342px; position: absolute; border: 3px #4b5866 solid" src="./number/D1 & D2.jpg" draggable="false" id="D1 & D2"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 633px; top: 386px; position: absolute; border: 3px #4b5866 solid" src="./number/D16.jpg" draggable="false" id="D16"/>
+            <img class="stall_1" style="width: 25px; height: 20px; left: 660px; top: 386px; position: absolute; border: 3px #4b5866 solid" src="./number/D17.jpg" draggable="false" id="D17"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 685px; top: 342px; position: absolute; border: 3px #4b5866 solid" src="./number/D3.jpg" draggable="false" id="D3"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 685px; top: 386px; position: absolute; border: 3px #4b5866 solid" src="./number/D18.jpg" draggable="false" id="D18"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 712px; top: 342px; position: absolute; border: 3px #4b5866 solid" src="./number/D4.jpg" draggable="false" id="D4"/>
+            <img class="stall_1" style="width: 54px; height: 20px; left: 712px; top: 386px; position: absolute; border: 3px #4b5866 solid" src="./number/D19 & D20.jpg" draggable="false" id="D19 & D20"/>
+            <img class="stall_1" style="width: 54px; height: 20px; left: 738px; top: 342px; position: absolute; border: 3px #4b5866 solid" src="./number/D5 & D6.jpg" draggable="false" id="D5 & D6"/>
+            <img class="stall_1" style="width: 54px; height: 20px; left: 767px; top: 386px; position: absolute; border: 3px #4b5866 solid" src="./number/D21 & D22.jpg" draggable="false" id="D21 & D22"/>
+            <img class="stall_1" style="width: 54px; height: 20px; left: 793px; top: 342px; position: absolute; border: 3px #4b5866 solid" src="./number/D7 & D8.jpg" draggable="false" id="D7 & D8"/>
+            <img class="stall_1" style="width: 54px; height: 20px; left: 820px; top: 386px; position: absolute; border: 3px #4b5866 solid" src="./number/D23 & D24.jpg" draggable="false" id="D23 & D24"/>
+            <img class="stall_1" style="width: 54px; height: 20px; left: 847px; top: 342px; position: absolute; border: 3px #4b5866 solid" src="./number/D9 & D10.jpg" draggable="false" id="D9 & D10"/>
+            <img class="stall_1" style="width: 54px; height: 20px; left: 873px; top: 386px; position: absolute; border: 3px #4b5866 solid" src="./number/D25 & D26.jpg" draggable="false" id="D25 & D26"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 903px; top: 342px; position: absolute; border: 3px #4b5866 solid" src="./number/D11.jpg" draggable="false" id="D11"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 932px; top: 342px; position: absolute; border: 3px #4b5866 solid" src="./number/D12.jpg" draggable="false" id="D12"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 925px; top: 386px; position: absolute; border: 3px #4b5866 solid" src="./number/D27.jpg" draggable="false" id="D27"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 961px; top: 342px; position: absolute; border: 3px #4b5866 solid" src="./number/D13.jpg" draggable="false" id="D13"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 953px; top: 386px; position: absolute; border: 3px #4b5866 solid" src="./number/D28.jpg" draggable="false" id="D28"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 980px; top: 386px; position: absolute; border: 3px #4b5866 solid" src="./number/D29.jpg" draggable="false" id="D29"/>
+            <img class="stall_1" style="width: 54px; height: 20px; left: 1006px; top: 386px; position: absolute; border: 3px #4b5866 solid" src="./number/D30 & D31.jpg" draggable="false" id="D30 & D31"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 1030px; top: 342px; position: absolute; border: 3px #4b5866 solid" src="./number/D14.jpg" draggable="false" id="D14"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 1058px; top: 342px; position: absolute; border: 3px #4b5866 solid" src="./number/D15.jpg" draggable="false" id="D15"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 1063px; top: 386px; position: absolute; border: 3px #4b5866 solid" src="./number/D32.jpg" draggable="false" id="D32"/>
+            <img class="stall_1" style="width: 54px; height: 20px; left: 1095px; top: 294px; position: absolute; border: 3px #4b5866 solid" src="./number/E1 & E2.jpg" draggable="false" id="E1 & E2"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 1157px; top: 250px; position: absolute; border: 3px #4b5866 solid" src="./number/E3.jpg" draggable="false" id="E3"/>
+            <img class="stall_1" style="width: 27px; height: 40px; left: 1157px; top: 200px; position: absolute; border: 3px #4b5866 solid" src="./number/E4 & E5.jpg" draggable="false" id="E4 & E5"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 433px; top: 326px; position: absolute; border: 3px #4b5866 solid" src="./number/B3.jpg" draggable="false" id="B3" />
+            <img class="stall_1" style="width: 27px; height: 20px; left: 433px; top: 302px; position: absolute; border: 3px #4b5866 solid" src="./number/B2.jpg" draggable="false" id="B2" />
+            <img class="stall_1" style="width: 27px; height: 20px; left: 433px; top: 278px; position: absolute; border: 3px #4b5866 solid" src="./number/B1.jpg" draggable="false" id="B1" />
+            <img class="stall_1" style="width: 25px; height: 20px; left: 408px; top: 185px; position: absolute; border: 3px #4b5866 solid" src="./number/C5.jpg" draggable="false" id="C5" />
+            <img class="stall_1" style="width: 27px; height: 20px; left: 433px; top: 209px; position: absolute; border: 3px #4b5866 solid" src="./number/C4.jpg" draggable="false" id="C4" />
+            <img class="stall_1" style="width: 25px; height: 20px; left: 350px; top: 135px; position: absolute; border: 3px #4b5866 solid" src="./number/C7.jpg" draggable="false" id="C7" />
+            <img class="stall_1" style="width: 27px; height: 20px; left: 378px; top: 159px; position: absolute; border: 3px #4b5866 solid" src="./number/C6.jpg" draggable="false" id="C6" />
+            <img class="stall_1" style="width: 27px; height: 20px; left: 476px; top: 224px; position: absolute; border: 3px #4b5866 solid" src="./number/C1.jpg" draggable="false" id="C1" />
+            <img class="stall_1" style="width: 27px; height: 20px; left: 476px; top: 199px; position: absolute; border: 3px #4b5866 solid" src="./number/C2.jpg" draggable="false" id="C2" />
+            <img class="stall_1" style="width: 27px; height: 20px; left: 476px; top: 174px; position: absolute; border: 3px #4b5866 solid" src="./number/C3.jpg" draggable="false" id="C3" />
+            <img class="stall_1" style="width: 54px; height: 20px; left: 447px; top: 64px; position: absolute; border: 3px #4b5866 solid" src="./number/F8 & F9.jpg" draggable="false" id="F8 & F9"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 503px; top: 64px; position: absolute; border: 3px #4b5866 solid" src="./number/F10.jpg" draggable="false" id="F10"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 528px; top: 64px; position: absolute; border: 3px #4b5866 solid" src="./number/F11.jpg" draggable="false" id="F11"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 554px; top: 64px; position: absolute; border: 3px #4b5866 solid" src="./number/F12.jpg" draggable="false" id="F12"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 580px; top: 64px; position: absolute; border: 3px #4b5866 solid" src="./number/F13.jpg" draggable="false" id="F13"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 608px; top: 64px; position: absolute; border: 3px #4b5866 solid" src="./number/F14.jpg" draggable="false" id="F14"/>
+            <img class="stall_1" style="width: 54px; height: 20px; left: 447px; top: 90px; position: absolute; border: 3px #4b5866 solid" src="./number/F1 & F2.jpg" draggable="false" id="F1 & F2"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 503px; top: 90px; position: absolute; border: 3px #4b5866 solid" src="./number/F3.jpg" draggable="false" id="F3"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 528px; top: 90px; position: absolute; border: 3px #4b5866 solid" src="./number/F4.jpg" draggable="false" id="F4"/>
+            <img class="stall_1" style="width: 27px; height: 20px; left: 554px; top: 90px; position: absolute; border: 3px #4b5866 solid" src="./number/F5.jpg" draggable="false" id="F5"/>
+            <img class="stall_1" style="width: 54px; height: 20px; left: 580px; top: 90px; position: absolute; border: 3px #4b5866 solid" src="./number/F6 & F7.jpg" draggable="false" id="F6 & F7"/>
+            <img class="stall_1" style="width: 27px; height: 27px; left: 1248px; top: 434px; position: absolute; border: 3px #4b5866 solid" src="./number/H1.jpg" draggable="false" id="H1"/>
+            <img class="stall_1" style="width: 27px; height: 27px; left: 1285px; top: 434px; position: absolute; border: 3px #4b5866 solid" src="./number/H2.jpg" draggable="false" id="H2"/>
+            <img class="stall_1" style="width: 27px; height: 27px; left: 1285px; top: 466px; position: absolute; border: 3px #4b5866 solid" src="./number/H3.jpg" draggable="false" id="H3"/>
+            <img class="stall_1" style="width: 27px; height: 27px; left: 1248px; top: 466px; position: absolute; border: 3px #4b5866 solid" src="./number/H4.jpg" draggable="false" id="H4"/>
+            <img class="stall_1" style="width: 27px; height: 27px; left: 1358px; top: 483px; position: absolute; border: 3px #4b5866 solid" src="./number/H5 & H6.jpg" draggable="false" id="H5 & H6"/>
+            <img class="stall_1" style="width: 27px; height: 27px; left: 1358px; top: 520px; position: absolute; border: 3px #4b5866 solid" src="./number/H7 & H8.jpg" draggable="false" id="H7 & H8"/>
+            <img class="stall_1" style="width: 27px; height: 27px; left: 1285px; top: 520px; position: absolute; border: 3px #4b5866 solid" src="./number/H9 & H10.jpg" draggable="false" id="H9 & H10"/>
+            <img class="stall_1" style="width: 27px; height: 27px; left: 1248px; top: 520px; position: absolute; border: 3px #4b5866 solid" src="./number/H11 & H12.jpg" draggable="false" id="H11 & H12"/>
+            <img class="stall_1" style="width: 27px; height: 27px; left: 1212px; top: 520px; position: absolute; border: 3px #4b5866 solid" src="./number/H13.jpg" draggable="false" id="H13"/>
+            <img class="stall_1" style="width: 27px; height: 27px; left: 1177px; top: 520px; position: absolute; border: 3px #4b5866 solid" src="./number/H14 & H15.jpg" draggable="false" id="H14 & H15"/>
+            <img class="stall_1" style="width: 27px; height: 27px; left: 1177px; top: 483px; position: absolute; border: 3px #4b5866 solid" src="./number/H16.jpg" draggable="false" id="H16"/>
+
+            <img class="stall_2" style="width: 27px; height: 20px; left: 543px; top: 415px; position: absolute; border: 3px #4b5866 solid" src="./number/A1.jpg" draggable="false" id="A1"/>
+            <img class="stall_2" style="width: 27px; height: 20px; left: 543px; top: 440px; position: absolute; border: 3px #4b5866 solid" src="./number/A2.jpg" draggable="false" id="A2"/>
+            <img class="stall_2" style="width: 27px; height: 20px; left: 543px; top: 465px; position: absolute; border: 3px #4b5866 solid" src="./number/A3.jpg" draggable="false" id="A3"/>
+            <img class="stall_2" style="width: 27px; height: 20px; left: 543px; top: 489px; position: absolute; border: 3px #4b5866 solid" src="./number/A4.jpg" draggable="false" id="A4"/>
+            <img class="stall_2" style="width: 27px; height: 20px; left: 594px; top: 415px; position: absolute; border: 3px #4b5866 solid" src="./number/A5.jpg" draggable="false" id="A5"/>
+            <img class="stall_2" style="width: 27px; height: 20px; left: 594px; top: 440px; position: absolute; border: 3px #4b5866 solid" src="./number/A6.jpg" draggable="false" id="A6"/>
+            <img class="stall_2" style="width: 27px; height: 20px; left: 594px; top: 465px; position: absolute; border: 3px #4b5866 solid" src="./number/A7.jpg" draggable="false" id="A7"/>
+            <img class="stall_2" style="width: 27px; height: 20px; left: 594px; top: 489px; position: absolute; border: 3px #4b5866 solid" src="./number/A8.jpg" draggable="false" id="A8"/>
+            <img class="stall_2" style="width: 27px; height: 20px; left: 647px; top: 415px; position: absolute; border: 3px #4b5866 solid" src="./number/A9.jpg" draggable="false" id="A9"/>
+            <img class="stall_2" style="width: 27px; height: 20px; left: 647px; top: 440px; position: absolute; border: 3px #4b5866 solid" src="./number/A10.jpg" draggable="false" id="A10"/>
+            <img class="stall_2" style="width: 27px; height: 20px; left: 647px; top: 465px; position: absolute; border: 3px #4b5866 solid" src="./number/A11.jpg" draggable="false" id="A11"/>
+            <img class="stall_2" style="width: 27px; height: 20px; left: 647px; top: 489px; position: absolute; border: 3px #4b5866 solid" src="./number/A12.jpg" draggable="false" id="A12"/>
+            <img class="stall_2" style="width: 27px; height: 20px; left: 633px; top: 342px; position: absolute; border: 3px #4b5866 solid" src="./number/D1.jpg" draggable="false" id="D1"/>
+            <img class="stall_2" style="width: 27px; height: 20px; left: 633px; top: 386px; position: absolute; border: 3px #4b5866 solid" src="./number/D16.jpg" draggable="false" id="D16"/>
+            <img class="stall_2" style="width: 54px; height: 20px; left: 660px; top: 342px; position: absolute; border: 3px #4b5866 solid" src="./number/D2 & D3.jpg" draggable="false" id="D2 & D3"/>
+            <img class="stall_2" style="width: 25px; height: 20px; left: 660px; top: 386px; position: absolute; border: 3px #4b5866 solid" src="./number/D17.jpg" draggable="false" id="D17"/>
+            <img class="stall_2" style="width: 27px; height: 20px; left: 685px; top: 386px; position: absolute; border: 3px #4b5866 solid" src="./number/D18.jpg" draggable="false" id="D18"/>
+            <img class="stall_2" style="width: 27px; height: 20px; left: 712px; top: 342px; position: absolute; border: 3px #4b5866 solid" src="./number/D4.jpg" draggable="false" id="D4"/>
+            <img class="stall_2" style="width: 27px; height: 20px; left: 712px; top: 386px; position: absolute; border: 3px #4b5866 solid" src="./number/D19.jpg" draggable="false" id="D19"/>
+            <img class="stall_2" style="width: 54px; height: 20px; left: 738px; top: 342px; position: absolute; border: 3px #4b5866 solid" src="./number/D5 & D6.jpg" draggable="false" id="D5 & D6"/>
+            <img class="stall_2" style="width: 29px; height: 20px; left: 738px; top: 386px; position: absolute; border: 3px #4b5866 solid" src="./number/D20.jpg" draggable="false" id="D20"/>
+            <img class="stall_2" style="width: 54px; height: 20px; left: 767px; top: 386px; position: absolute; border: 3px #4b5866 solid" src="./number/D21 & D22.jpg" draggable="false" id="D21 & D22"/>
+            <img class="stall_2" style="width: 54px; height: 20px; left: 793px; top: 342px; position: absolute; border: 3px #4b5866 solid" src="./number/D7 & D8.jpg" draggable="false" id="D7 & D8"/>
+            <img class="stall_2" style="width: 54px; height: 20px; left: 820px; top: 386px; position: absolute; border: 3px #4b5866 solid" src="./number/D23 & D24.jpg" draggable="false" id="D23 & D24"/>
+            <img class="stall_2" style="width: 27px; height: 20px; left: 847px; top: 342px; position: absolute; border: 3px #4b5866 solid" src="./number/D9.jpg" draggable="false" id="D9"/>
+            <img class="stall_2" style="width: 54px; height: 20px; left: 875px; top: 342px; position: absolute; border: 3px #4b5866 solid" src="./number/D10 & D11.jpg" draggable="false" id="D10 & D11"/>
+            <img class="stall_2" style="width: 27px; height: 20px; left: 875px; top: 386px; position: absolute; border: 3px #4b5866 solid" src="./number/D25.jpg" draggable="false" id="D25"/>
+            <img class="stall_2" style="width: 27px; height: 20px; left: 899px; top: 386px; position: absolute; border: 3px #4b5866 solid" src="./number/D26.jpg" draggable="false" id="D26"/>
+            <img class="stall_2" style="width: 27px; height: 20px; left: 925px; top: 386px; position: absolute; border: 3px #4b5866 solid" src="./number/D27.jpg" draggable="false" id="D27"/>
+            <img class="stall_2" style="width: 27px; height: 20px; left: 953px; top: 386px; position: absolute; border: 3px #4b5866 solid" src="./number/D28.jpg" draggable="false" id="D28"/>
+            <img class="stall_2" style="width: 27px; height: 20px; left: 980px; top: 386px; position: absolute; border: 3px #4b5866 solid" src="./number/D29.jpg" draggable="false" id="D29"/>
+            <img class="stall_2" style="width: 27px; height: 20px; left: 1006px; top: 386px; position: absolute; border: 3px #4b5866 solid" src="./number/D30.jpg" draggable="false" id="D30"/>
+            <img class="stall_2" style="width: 27px; height: 20px; left: 1033px; top: 386px; position: absolute; border: 3px #4b5866 solid" src="./number/D31.jpg" draggable="false" id="D31"/>
+            <img class="stall_2" style="width: 54px; height: 20px; left: 925px; top: 342px; position: absolute; border: 3px #4b5866 solid" src="./number/D12 & D13.jpg" draggable="false" id="D12 & D13"/>
+            <img class="stall_2" style="width: 54px; height: 20px; left: 1030px; top: 342px; position: absolute; border: 3px #4b5866 solid" src="./number/D14 & D15.jpg" draggable="false" id="D14 & D15"/>
+            <img class="stall_2" style="width: 54px; height: 20px; left: 1095px; top: 294px; position: absolute; border: 3px #4b5866 solid" src="./number/E1 & E2.jpg" draggable="false" id="E1 & E2"/>
+            <img class="stall_2" style="width: 27px; height: 20px; left: 433px; top: 326px; position: absolute; border: 3px #4b5866 solid" src="./number/B3.jpg" draggable="false" id="B3" />
+            <img class="stall_2" style="width: 27px; height: 20px; left: 433px; top: 302px; position: absolute; border: 3px #4b5866 solid" src="./number/B2.jpg" draggable="false" id="B2" />
+            <img class="stall_2" style="width: 27px; height: 20px; left: 433px; top: 278px; position: absolute; border: 3px #4b5866 solid" src="./number/B1.jpg" draggable="false" id="B1" />
+            <img class="stall_2" style="width: 25px; height: 20px; left: 408px; top: 185px; position: absolute; border: 3px #4b5866 solid" src="./number/C5.jpg" draggable="false" id="C5" />
+            <img class="stall_2" style="width: 27px; height: 20px; left: 433px; top: 209px; position: absolute; border: 3px #4b5866 solid" src="./number/C4.jpg" draggable="false" id="C4" />
+            <img class="stall_2" style="width: 25px; height: 20px; left: 350px; top: 135px; position: absolute; border: 3px #4b5866 solid" src="./number/C7.jpg" draggable="false" id="C7" />
+            <img class="stall_2" style="width: 27px; height: 20px; left: 378px; top: 159px; position: absolute; border: 3px #4b5866 solid" src="./number/C6.jpg" draggable="false" id="C6" />
+            <img class="stall_2" style="width: 27px; height: 20px; left: 476px; top: 224px; position: absolute; border: 3px #4b5866 solid" src="./number/C1.jpg" draggable="false" id="C1" />
+            <img class="stall_2" style="width: 27px; height: 20px; left: 476px; top: 199px; position: absolute; border: 3px #4b5866 solid" src="./number/C2.jpg" draggable="false" id="C2" />
+            <img class="stall_2" style="width: 27px; height: 20px; left: 476px; top: 174px; position: absolute; border: 3px #4b5866 solid" src="./number/C3.jpg" draggable="false" id="C3" />
+            <img class="stall_2" style="width: 27px; height: 27px; left: 1248px; top: 434px; position: absolute; border: 3px #4b5866 solid" src="./number/H1.jpg" draggable="false" id="H1"/>
+            <img class="stall_2" style="width: 27px; height: 27px; left: 1285px; top: 434px; position: absolute; border: 3px #4b5866 solid" src="./number/H2.jpg" draggable="false" id="H2"/>
+            <img class="stall_2" style="width: 27px; height: 27px; left: 1285px; top: 466px; position: absolute; border: 3px #4b5866 solid" src="./number/H3.jpg" draggable="false" id="H3"/>
+            <img class="stall_2" style="width: 27px; height: 27px; left: 1248px; top: 466px; position: absolute; border: 3px #4b5866 solid" src="./number/H4.jpg" draggable="false" id="H4"/>
+            <img class="stall_2" style="width: 27px; height: 27px; left: 1358px; top: 483px; position: absolute; border: 3px #4b5866 solid" src="./number/H5 & H6.jpg" draggable="false" id="H5 & H6"/>
+            <img class="stall_2" style="width: 27px; height: 27px; left: 1358px; top: 520px; position: absolute; border: 3px #4b5866 solid" src="./number/H7 & H8.jpg" draggable="false" id="H7 & H8"/>
+            <img class="stall_2" style="width: 27px; height: 27px; left: 1285px; top: 520px; position: absolute; border: 3px #4b5866 solid" src="./number/H9 & H10.jpg" draggable="false" id="H9 & H10"/>
+            <img class="stall_2" style="width: 27px; height: 27px; left: 1248px; top: 520px; position: absolute; border: 3px #4b5866 solid" src="./number/H11 & H12.jpg" draggable="false" id="H11 & H12"/>
+            <img class="stall_2" style="width: 27px; height: 27px; left: 1212px; top: 520px; position: absolute; border: 3px #4b5866 solid" src="./number/H13.jpg" draggable="false" id="H13"/>
+            <img class="stall_2" style="width: 27px; height: 27px; left: 1177px; top: 520px; position: absolute; border: 3px #4b5866 solid" src="./number/H14 & H15.jpg" draggable="false" id="H14 & H15"/>
+            <img class="stall_2" style="width: 27px; height: 27px; left: 1177px; top: 483px; position: absolute; border: 3px #4b5866 solid" src="./number/H16.jpg" draggable="false" id="H16"/>
+        </div>
+
+        <div style="width: 1920px; height: 913px; left: 400px; top: 100px; position: relative; background: white" id="info" display="none">
+            <div class="info" style="width: 60%; height: 73%; left: 0px; top: 0px; position: absolute; background: #F0F0F0"></div>
+            <div class="info" style="width: 19.63%; height: 326px; left: 75px; top: 166px; position: absolute; background: #BDB8B4"></div>
+            <img class="info" style="width: 18.07%; height: 296px; left: 90px; top: 183px; position: absolute" id="stall_pic" src="./blank.png" draggable="false"/>
+            <div class="info" style="left: 190px; top: 517px; position: absolute; color: #4b5866; font-size: 48px; font-weight: 700; word-wrap: break-word" id="stall_name">攤位A</div>
+            <div class="info" style="left: 810px; top: 268px; position: absolute; color: #4b5866; font-size: 48px; font-weight: 700; word-wrap: break-word" id="stall_num">A0</div>
+            <div class="info" style="left: 810px; top: 322px; position: absolute; color: #4b5866; font-size: 48px; font-weight: 700; word-wrap: break-word" id="stall_date">4/20~4/21</div>
+            <div class="info" style="left: 810px; top: 376px; position: absolute; color: #4b5866; font-size: 48px; font-weight: 700; word-wrap: break-word" id="stall_type"> 一般向 </div>
+            <div class="info" style="left: 570px; top: 265px; position: absolute; color: #4b5866; font-size: 48px; font-weight: 700; word-wrap: break-word">攤位編號 : <br/>參展天數 : <br/>創作方向 : </div>
+            <div class="info" style="width: 19%; height: 0px; left: 535px; top: 140px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; border: 3px #4b5866 solid"></div>
+        </div>
+
+        <div style="width: 520px; height: 80px; left: 750px; top: 800px; position: relative; background: white; border: 5px #4b5866 solid" id="day">
+            <div class="info" style="width: 520px; height: 80px; left: 0px; top: 0px; position: absolute; background: #F0F0F0"></div>
+            <div class="info" style="left: 35px; top: 13px; position: absolute; color: #4b5866; font-size: 44px; font-weight: 700; word-wrap: break-word" id="day_name">切換日期 (4/20->4/21)</div>
+        </div>
+        
+        <script src="./js/map.js"></script>
+    </body>
+</html>

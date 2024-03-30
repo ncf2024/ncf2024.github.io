@@ -1,0 +1,254 @@
+{
+    "D1 & D2": {
+        "url": "stall_0.png",
+        "name": "動漫貓宅屋&繪閣攝影棚",
+        "stall": "2",
+        "day": "1",
+        "type": "女性向(vtuber)"
+    },
+    "D16": {
+        "url": "../stall_pics/同人社團-葉子貓-場刊圖.png",
+        "name": "同人社團-葉子貓",
+        "stall": "1",
+        "day": "2",
+        "type": ""
+    },
+    "D17": {
+        "url": "../stall_pics/今天也要吃飯糰嗎-場刊圖.png",
+        "name": "今天也要吃飯糰嗎",
+        "stall": "1",
+        "day": "1",
+        "type": "女性向（餅國 新世界狂歡)"
+    },
+    "D3": {
+        "url": "../stall_pics/微光創造-場刊圖.png",
+        "name": "微光創造",
+        "stall": "2",
+        "day": "2",
+        "type": "女性向(niji en)"
+    },
+    "D18": {
+        "url": "../stall_pics/阿金金的骷髏攤攤-場刊圖.png",
+        "name": "阿金金的骷髏攤攤",
+        "stall": "1",
+        "day": "1",
+        "type": "女性向（偶像夢幻祭 催麥 迪士尼扭曲仙境 無期迷途 東方)"
+    },
+    "D4": {
+        "url": "../stall_pics/Mafu莫芙-場刊圖.png",
+        "name": "Mafu莫芙",
+        "stall": "1",
+        "day": "1",
+        "type": "女性向（餅國 新世界狂歡)"
+    },
+    "D19 & D20": {
+        "url": "../stall_pics/班妮動漫-場刊圖.png",
+        "name": "班妮動漫",
+        "stall": "2",
+        "day": "2",
+        "type": ""
+    },
+    "D5 & D6": {
+        "url": "../stall_pics/妄秋香-場刊圖.png",
+        "name": "妄秋香",
+        "stall": "2",
+        "day": "2",
+        "type": "一般向"
+    },
+    "D21 & D22": {
+        "url": "../stall_pics/MOEMOE-場刊圖.png",
+        "name": "Moe*Moe",
+        "stall": "2",
+        "day": "2",
+        "type": ""
+    },
+    "D7 & D8": {
+        "url": "../stall_pics/神奇山羊飛起來-場刊圖.png",
+        "name": "神奇山羊飛起來",
+        "stall": "2",
+        "day": "2",
+        "type": "一般向"
+    },
+    "D23 & D24": {
+        "url": "../stall_pics/手殘黨-場刊圖.png",
+        "name": "手殘黨",
+        "stall": "2",
+        "day": "1",
+        "type": ""
+    },
+    "D9 & D10": {
+        "url": "../stall_pics/恐怖白果醬-場刊圖.png",
+        "name": "恐怖白果醬",
+        "stall": "2",
+        "day": "2",
+        "type": ""
+    },
+    "D25 & D26": {
+        "url": "../stall_pics/Tabibito-場刊圖.png",
+        "name": "Tabibito",
+        "stall": "2",
+        "day": "2",
+        "type": ""
+    },
+    "D11": {
+        "url": "../stall_pics/紫乃沒有乃-場刊圖.png",
+        "name": "紫乃沒有乃",
+        "stall": "1",
+        "day": "1",
+        "type": "女性向(成人)（原二）"
+    },
+    "D12": {
+        "url": "../stall_pics/清野君後援會-場刊圖.png",
+        "name": "青野君後援會",
+        "stall": "1",
+        "day": "1",
+        "type": ""
+    },
+    "D27": {
+        "url": "../stall_pics/炸蝦加工廠-場刊圖.png",
+        "name": "炸蝦加工廠",
+        "stall": "1",
+        "day": "1",
+        "type": "女性向(成人)"
+    },
+    "D13": {
+        "url": "../stall_pics/Shizu-場刊圖.png",
+        "name": "Shizu",
+        "stall": "1",
+        "day": "2",
+        "type": "一般向(商業攤)（原神 崩鐵 holo)"
+    },
+    "D28": {
+        "url": "../stall_pics/卯卯島的卯卯君-場刊圖.png",
+        "name": "卯卯島的卯卯君",
+        "stall": "1",
+        "day": "1",
+        "type": "男性向(成人)"
+    },
+    "D29": {
+        "url": "../stall_pics/關於蕉民肝硬化那件事-場刊圖.png",
+        "name": "關於蕉民肝硬化那件事",
+        "stall": "1",
+        "day": "1",
+        "type": ""
+    },
+    "D30 & D31": {
+        "url": "../stall_pics/野清記事-場刊圖.png",
+        "name": "野清記事",
+        "stall": "2",
+        "day": "1",
+        "type": ""
+    },
+    "D14": {
+        "url": "../stall_pics/藥屋找左邊剩下右邊-場刊圖.png",
+        "name": "藥屋找左邊剩下右邊",
+        "stall": "1",
+        "day": "1",
+        "type": "彩虹 holo "
+    },
+    "D15": {
+        "url": "../stall_pics/甲卍甲甲卍-場刊圖.png",
+        "name": "甲卍甲甲卍",
+        "stall": "1",
+        "day": "2",
+        "type": ""
+    },
+    "D32": {
+        "url": "../stall_pics/海帶阿海帶-場刊圖.png",
+        "name": "海帶阿海帶",
+        "stall": "1",
+        "day": "1",
+        "type": ""
+    },
+    "E1 & E2": {
+        "url": "../stall_pics/A_D-場刊圖.png",
+        "name": "【A&D】Angels&Devils",
+        "stall": "2",
+        "day": "2",
+        "type": ""
+    },
+    "E3": {
+        "url": "../stall_pics/一般路過天五推-場刊圖.png",
+        "name": "一般路過天五推",
+        "stall": "1",
+        "day": "1",
+        "type": ""
+    },
+    "E4 & E5": {
+        "url": "../stall_pics/有害蕈類集會所-場刊圖.png",
+        "name": "有害蕈類集會所",
+        "stall": "2",
+        "day": "1",
+        "type": ""
+    },
+    "F8 & F9": {
+        "url": "stall_0.png",
+        "name": "可可貓的房子",
+        "stall": "2",
+        "day": "2",
+        "type": ""
+    },
+    "F10": {
+        "url": "../stall_pics/歐洲人的社團-場刊圖.png",
+        "name": "歐洲人的社團",
+        "stall": "1",
+        "day": "1",
+        "type": ""
+    },
+    "F11": {
+        "url": "../stall_pics/海苔遊戲工房-場刊圖.png",
+        "name": "海苔遊戲工房",
+        "stall": "1",
+        "day": "1",
+        "type": ""
+    },
+    "F12": {
+        "url": "../stall_pics/小祭 幻想精靈工坊-場刊圖.png",
+        "name": "小祭 - 幻想妖精工坊",
+        "stall": "1",
+        "day": "1",
+        "type": ""
+    },
+    "F13": {
+        "url": "../stall_pics/好朋友工作室-場刊圖.png",
+        "name": "好朋友工作室",
+        "stall": "1",
+        "day": "1",
+        "type": ""
+    },
+    "F1 & F2": {
+        "url": "../stall_pics/紡雲織坊-場刊圖.png",
+        "name": "紡雲織坊",
+        "stall": "2",
+        "day": "1",
+        "type": ""
+    },
+    "F3": {
+        "url": "../stall_pics/山根書店-場刊圖.png",
+        "name": "山根書店",
+        "stall": "1",
+        "day": "2",
+        "type": ""
+    },
+    "F4": {
+        "url": "../stall_pics/魚吃草-場刊圖.png",
+        "name": "魚吃草的日常風景",
+        "stall": "1",
+        "day": "2",
+        "type": ""
+    },
+    "F5": {
+        "url": "../stall_pics/慢慢鳥-場刊圖.png",
+        "name": "慢慢鳥",
+        "stall": "1",
+        "day": "2",
+        "type": ""
+    },
+    "F6 & F7": {
+        "url": "../stall_pics/旋轉馬鈴薯-場刊圖.png",
+        "name": "旋轉馬鈴薯",
+        "stall": "2",
+        "day": "1",
+        "type": ""
+    }
+}
