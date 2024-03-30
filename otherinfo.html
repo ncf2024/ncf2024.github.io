@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+TC:wght@100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+
+
+    <script src="js/action.js"></script>
+    <title>NCF2024</title>
+</head>
+
+<body>
+    <header w3-include-html="header.html"></header>
+    <main>
+        <div class="intro-bg"></div>
+
+
+        <div class="container-fluid">
+
+            <section id="transportations" class=" item-block" style="position: relative;">
+                <div class="item-block-style">
+                    <p class="item-title font-bold">交通​資訊</p>
+
+                    <p class="service-title font-bold">(可參考<a
+                            href="https://web.ncku.edu.tw/p/412-1000-29366.php?Lang=zh-tw" style="
+                             color:#ffc1c1ce">成大官網</a>)</p>
+                    </p>
+
+
+
+                    <div class="service-rules font-bold" style="margin: 1vh; width:70vw; padding:2%;">
+                        <a id="toggleButtonTrain" style="text-decoration: none; "
+                            onclick="toggleDisplay('toggleButtonTrain','train');" title="" type="button">搭乘火車</a>
+
+                        <div id="train" style="display: none;">
+                            <p>台鐵台南站－成功大學校本部： <a href="https://maps.app.goo.gl/kPEijgefqodVviSM8"
+                                    style="text-decoration: none; color:#ffc1c1ce">步行地圖建議</a></p>
+                            <ol>
+                                <li>台鐵台南站下車，後站出口</li>
+                                <li>沿大學路，步行至成功大學光復校區</li>
+                            </ol>
+
+                        </div>
+                    </div>
+
+                    <div class="service-rules font-bold" style="margin: 1vh;width:70vw; padding:2%;">
+                        <a id="toggleButtonHighway" style="text-decoration: none; "
+                            onclick="toggleDisplay('toggleButtonHighway','highway');" title="" type="button">搭乘高鐵</a>
+
+                        <div id="highway" style="display: none;">
+                            <p>高鐵台南站－台鐵台南站－成功大學校本部: <a href="https://maps.app.goo.gl/kPEijgefqodVviSM8"
+                                    style="text-decoration: none; color:#ffc1c1ce">步行地圖建議</a></p>
+                            <ol>
+                                <li>高鐵台南站下車至二樓轉乘通廊或一樓大廳1號出口前往台鐵沙崙站</li>
+                                <li>搭乘台鐵沙崙區間車前往台鐵台南站</li>
+                                <li>抵達台鐵台南站至後站出口，沿大學路，步行至成功大學光復校區</li>
+                            </ol>
+
+                        </div>
+                    </div>
+
+                    <div class="service-rules font-bold" style="margin: 1vh;width:70vw; padding:2%;">
+                        <a id="toggleButtonCar" style="text-decoration: none; "
+                            onclick="toggleDisplay('toggleButtonCar','car');" title="" type="button">自行開車</a>
+
+                        <div id="car" style="display: none;">
+                            <p>-沿國道1號南下大灣交流道－成功大學校本部：南下</p>
+                            <p>-沿國道1號北上仁德交流道－成功大學校本部：北上</p>
+                            <p>校內不提供停車服務，請自行搜索校外付費停車場，謝謝您的諒解與配合</p>
+
+                        </div>
+                    </div>
+
+                    <div class="service-rules font-bold"
+                        style="margin: 1vh;width:70vw; padding:2%;color:#0d2238; background-color: rgba(255, 255, 255, 0.517);">
+                        <p class="font-bold">youbike 站點資訊</p>
+
+                        <div class="iframely-embed">
+                            <div class="iframely-responsive" style="height: 5vh; padding-bottom: 0;"><a
+                                    href="https://www.youbike.com.tw/region/main/stations/"
+                                    data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Fwww.youbike.com.tw%2Fregion%2Fmain%2Fstations%2F&key=9f5f91e2487ad06aa591fec994791f28"></a>
+                            </div>
+                        </div>
+                        <script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <div class="container-fluid">
+
+                <section id="QA" class=" item-block" style="position: relative;">
+                    <div class="item-block-style">
+                        <p class="item-title font-bold">Q&amp;A</p>
+
+
+                        <div class="service-rules font-bold" style="margin: 1vh; width:70vw; padding:2%;">
+                            <a id="visitorQA" style="text-decoration: none; "
+                                onclick="toggleDisplay('visitorQA','Visitor');" title="" type="button">參展民眾</a>
+                            <div id="Visitor" style="display: none;">
+                                <p id="visitorQ1" style="color: white;"
+                                    onclick="toggleDisplay('visitorQ1','visitorA1','white','rgb(187,161,182)');"
+                                    title="" type="button">- 時間已經確定，不會再更改了嗎？</p>
+                                <p id="visitorA1" style="display: none; margin-left: 2.5rem;">
+                                    很抱歉，因為我們使用的是學校場地的緣故，​必須要在事前就先向校方申請，且還有可能因​為校外單位要舉辦活動，直接取消我們使用此​場地的資格，為此我們已經非常努力了。
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="service-rules font-bold" style="margin: 1vh; width:70vw; padding:2%;">
+                            <a id="standQA" style="text-decoration: none; " onclick="toggleDisplay('standQA','Stand');"
+                                title="" type="button">社團攤位</a>
+                            <div id="Stand" style="display: none;">
+                                <p id="standQ1" style="color: white;"
+                                    onclick="toggleDisplay('standQ1','standA1','white','rgb(187,161,182)');" title=""
+                                    type="button">- 繳費後取消報名可以退費嗎？</p>
+                                <p id="standA1" style="display: none; margin-left: 2.5rem;">可以，請您先透過郵件通知，並填寫表單(<a
+                                        href="https://forms.gle/sN3m9Vze1cCHi52H9">點這裡</a>)。同時，請注意在4/5前提出的申請將全額退還，超過此期限將無法辦理退​費，敬請見諒。
+                                </p>
+
+                                <p id="standQ2" style="color: white;"
+                                    onclick="toggleDisplay('standQ2','standA2','white','rgb(187,161,182)');" title=""
+                                    type="button">- 一個攤位的大小是多大呢？</p>
+                                <div id="standA2" style="display: none; margin-left: 2.5rem;">
+                                    <p>
+                                        一個攤位大小是180*45*74cm，每攤位提供一張折合桌與兩張折合椅，如圖<img src="./picture/chairQA.webp"
+                                            style="margin-top: 0.5rem; width:25vw; height: auto; margin-left: 20vw;">
+                                    </p>
+                                    <p style="color:#ff6e6ef4;"><b>*請勿私下轉賣攤位和椅子！</b></p>
+
+                                </div>
+
+                                <p id="standQ3" style="color: white;"
+                                    onclick="toggleDisplay('standQ3','standA3','white','rgb(187,161,182)');" title=""
+                                    type="button">- 社團繳費只能使用郵局轉帳嗎?</p>
+                                <p id="standA3" style="display: none; margin-left: 2.5rem;">
+                                    攤位繳費可以使用其他方式，只要有​方法可確認繳費者身分並在繳費後記​得填寫回報單即可！
+                                </p>
+
+                                <p id="standQ4" style="color: white;"
+                                    onclick="toggleDisplay('standQ4','standA4','white','rgb(187,161,182)');" title=""
+                                    type="button">- 連攤社團一定要同一性向嗎?</p>
+                                <p id="standA4" style="display: none; margin-left: 2.5rem;">
+                                    因為成人向攤位必須在管制區域內，​所以無法接受一般向與成人向連攤，​非常抱歉。
+                                </p>
+
+
+                            </div>
+                        </div>
+
+                        <div class="service-rules font-bold" style="margin: 1vh; width:70vw; padding:2%;">
+                            <a id="stageQA" style="text-decoration: none; " onclick="toggleDisplay('stageQA','Stage');"
+                                title="" type="button">舞台表演與比賽</a>
+                            <div id="Stage" style="display: none;">
+                                <p id="StageQ1" style="color: white;"
+                                    onclick="toggleDisplay('StageQ1','StageA1','white','rgb(187,161,182)');" title=""
+                                    type="button">- 舞台比賽當天的服裝可以和報名​時的附檔作品不同嗎?</p>
+                                <p id="StageA1" style="display: none; margin-left: 2.5rem;">
+                                    可以，比賽當天的服裝、造型、主題​可以和報名時的附檔作品不同。附檔​作品僅作為證明審核用途。
+                                </p>
+                                <p id="StageQ2" style="color: white;"
+                                    onclick="toggleDisplay('StageQ2','StageA2','white','rgb(187,161,182)');" title=""
+                                    type="button">- 觀賞表演時有甚麼需要注意的嗎?</p>
+                                <p id="StageA2" style="display: none; margin-left: 2.5rem;">
+                                    觀賞舞台表演時，個人穿戴或攜帶之大型道具請以不會阻礙到他人視線或行動為主、不要推擠，並請遵從工作人員的引導與指示。
+                                </p>
+                                <p id="StageQ3" style="color: white;"
+                                    onclick="toggleDisplay('StageQ3','StageA3','white','rgb(187,161,182)');" title=""
+                                    type="button">- 現場可以為喜歡的表演者應援嗎?</p>
+                                <p id="StageA3" style="display: none; margin-left: 2.5rem;">
+                                    可以攜帶螢光棒、應援棒等物品，但使用時請注意安全，勿傷及旁人。
+                                </p>
+                                <p id="StageQ4" style="color: white;"
+                                    onclick="toggleDisplay('StageQ4','StageA4','white','rgb(187,161,182)');" title=""
+                                    type="button">- 欣賞舞台表演時可以坐下嗎?</p>
+                                <p id="StageA4" style="display: none; margin-left: 2.5rem;">
+                                    舞台席位雖是自由入場，但因安全考量建議不要在舞台周圍席地而坐。
+                                </p>
+                                <p id="StageQ5" style="color: white;"
+                                    onclick="toggleDisplay('StageQ5','StageA5','white','rgb(187,161,182)');" title=""
+                                    type="button">- 參賽者可以用更衣帳嗎?</p>
+                                <p id="StageA5" style="display: none; margin-left: 2.5rem;">
+                                    參賽者和表演者均可憑參賽/表演證免費及優先使用編號1～3號之更衣帳（本次活動將提供總共5頂更衣帳做使用）。
+                                </p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </main>
+
+    <footer w3-include-html="footer.html"></footer>
+
+
+    <!-- Optional JavaScript -->
+    <script>
+        w3.includeHTML();
+    </script>
+
+
+
+</body>
+
+</html>
