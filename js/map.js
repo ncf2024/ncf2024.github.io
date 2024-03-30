@@ -833,7 +833,10 @@ const day2_info = {
     }
 }
 
-info.style.display = "none";
+if (info) {
+    info.style.display = "none";
+}
+
 
 // window.addEventListener('resize', function () {
 //     var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
