@@ -274,6 +274,13 @@ h6 {
 /* rwd */
 /* 在 xl 以上的尺寸 */
 @media (min-width: 1200px) {
+    .mr-3 {
+        margin-left: 3rem;
+    }
+
+    .mr-m3 {
+        margin-left: -3rem;
+    }
 
     /* stand map */
     .change-button {
