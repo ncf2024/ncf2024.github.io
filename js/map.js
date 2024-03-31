@@ -94,63 +94,63 @@ const day1_info = {
         "day": "2",
         "type": "-詳情見「舞台活動」專區-"
     },
-    "C1": {
-        "url": "./blank.webp",
+    "B1": {
+        "url": "./stall_pics/大江戶外萌-場刊圖.webp",
         "name": "大江戶外萌",
         "stall": "2",
         "day": "2",
         "type": "一般向(商業攤)（原神 崩鐵 holo)"
     },
-    "C2": {
-        "url": "./blank.webp",
+    "B2": {
+        "url": "./stall_pics/大江戶外萌-場刊圖.webp",
         "name": "大江戶外萌",
         "stall": "2",
         "day": "2",
         "type": "一般向(商業攤)（原神 崩鐵 holo)"
     },
-    "C3": {
+    "B3": {
         "url": "./blank.webp",
         "name": "W&amp;Y Costudio 攝影窩",
         "stall": "2",
         "day": "2",
         "type": "一般向(Hololive)"
     },
-    "C4": {
+    "B4": {
         "url": "./blank.webp",
         "name": "W&amp;Y Costudio 攝影窩",
         "stall": "2",
         "day": "2",
         "type": "一般向(Hololive)"
     },
-    "C5": {
-        "url": "./blank.webp",
+    "B5": {
+        "url": "./stall_pics/楓玥小築-場刊圖.webp",
         "name": "楓玥小築",
         "stall": "1",
         "day": "2",
         "type": "一般向(Hololive)"
     },
-    "C6": {
-        "url": "./blank.webp",
+    "B6": {
+        "url": "./stall_pics/EYE就是愛玩金屬書籤.webp",
         "name": "EYE就是愛玩金屬書籤",
         "stall": "1",
         "day": "2",
         "type": "女性向(刀劍亂舞)"
     },
     "D1 & D2": {
-        "url": "./blank.webp",
+        "url": "./stall_pics/動漫貓宅屋&繪閣攝影棚_場刊圖.webp",
         "name": "動漫貓宅屋&繪閣攝影棚",
         "stall": "2",
         "day": "1",
         "type": "女性向(vtuber)"
     },
-    "D16": {
+    "C1": {
         "url": "./stall_pics/同人社團-葉子貓-場刊圖.webp",
         "name": "同人社團-葉子貓",
         "stall": "1",
         "day": "2",
         "type": ""
     },
-    "D17": {
+    "C2": {
         "url": "./stall_pics/今天也要吃飯糰嗎-場刊圖.webp",
         "name": "今天也要吃飯糰嗎",
         "stall": "1",
@@ -164,7 +164,7 @@ const day1_info = {
         "day": "2",
         "type": "女性向(niji en)"
     },
-    "D18": {
+    "C3": {
         "url": "./stall_pics/阿金金的骷髏攤攤-場刊圖.webp",
         "name": "阿金金的骷髏攤攤",
         "stall": "1",
@@ -178,7 +178,7 @@ const day1_info = {
         "day": "1",
         "type": "女性向（餅國 新世界狂歡)"
     },
-    "D19 & D20": {
+    "C4 & C5": {
         "url": "./stall_pics/班妮動漫-場刊圖.webp",
         "name": "班妮動漫",
         "stall": "2",
@@ -192,7 +192,7 @@ const day1_info = {
         "day": "2",
         "type": "一般向"
     },
-    "D21 & D22": {
+    "C6 & C7": {
         "url": "./stall_pics/MOEMOE-場刊圖.webp",
         "name": "Moe*Moe",
         "stall": "2",
@@ -206,7 +206,7 @@ const day1_info = {
         "day": "2",
         "type": "一般向"
     },
-    "D23 & D24": {
+    "C8 & C9": {
         "url": "./stall_pics/手殘黨-場刊圖.webp",
         "name": "手殘黨",
         "stall": "2",
@@ -220,7 +220,7 @@ const day1_info = {
         "day": "2",
         "type": "一般向（孤獨"
     },
-    "D25 & D26": {
+    "C10 & C11": {
         "url": "./stall_pics/Tabibito-場刊圖.webp",
         "name": "Tabibito",
         "stall": "2",
@@ -241,7 +241,7 @@ const day1_info = {
         "day": "1",
         "type": ""
     },
-    "D27": {
+    "C12": {
         "url": "./stall_pics/炸蝦加工廠-場刊圖.webp",
         "name": "炸蝦加工廠",
         "stall": "1",
@@ -255,21 +255,21 @@ const day1_info = {
         "day": "2",
         "type": "一般向(商業攤)（原神 崩鐵 holo)"
     },
-    "D28": {
+    "C13": {
         "url": "./stall_pics/卯卯島的卯卯君-場刊圖.webp",
         "name": "卯卯島的卯卯君",
         "stall": "1",
         "day": "1",
         "type": "男性向(成人)"
     },
-    "D29": {
+    "C14": {
         "url": "./stall_pics/關於蕉民肝硬化那件事-場刊圖.webp",
         "name": "關於蕉民肝硬化那件事",
         "stall": "1",
         "day": "1",
         "type": ""
     },
-    "D30 & D31": {
+    "C15 & C16": {
         "url": "./stall_pics/野清記事-場刊圖.webp",
         "name": "野清記事",
         "stall": "2",
@@ -290,63 +290,63 @@ const day1_info = {
         "day": "2",
         "type": ""
     },
-    "D32": {
+    "C17": {
         "url": "./stall_pics/海帶阿海帶-場刊圖.webp",
         "name": "海帶阿海帶",
         "stall": "1",
         "day": "1",
         "type": ""
     },
-    "E1 & E2": {
+    "E3 & E4": {
         "url": "./stall_pics/A_D-場刊圖.webp",
         "name": "【A&D】Angels&Devils",
         "stall": "2",
         "day": "2",
         "type": "女性向(成人)"
     },
-    "E3": {
+    "E5": {
         "url": "./stall_pics/一般路過天五推-場刊圖.webp",
         "name": "一般路過天五推",
         "stall": "1",
         "day": "1",
         "type": ""
     },
-    "E4 & E5": {
+    "E1 & E2": {
         "url": "./stall_pics/有害蕈類集會所-場刊圖.webp",
         "name": "有害蕈類集會所",
         "stall": "2",
         "day": "1",
         "type": ""
     },
-    "F8 & F9": {
+    "G1 & G2": {
         "url": "./stall_pics/可可貓的房子-場刊圖.webp",
         "name": "可可貓的房子",
         "stall": "2",
         "day": "2",
         "type": ""
     },
-    "F10": {
+    "G3": {
         "url": "./stall_pics/歐洲人的社團-場刊圖.webp",
         "name": "歐洲人的社團",
         "stall": "1",
         "day": "1",
         "type": ""
     },
-    "F11": {
+    "G4": {
         "url": "./stall_pics/海苔遊戲工房-場刊圖.webp",
         "name": "海苔遊戲工房",
         "stall": "1",
         "day": "1",
         "type": ""
     },
-    "F12": {
+    "G5": {
         "url": "./stall_pics/小祭 幻想精靈工坊-場刊圖.webp",
         "name": "小祭 - 幻想妖精工坊",
         "stall": "1",
         "day": "1",
         "type": ""
     },
-    "F13": {
+    "G6": {
         "url": "./stall_pics/好朋友工作室-場刊圖.webp",
         "name": "好朋友工作室",
         "stall": "1",
@@ -389,77 +389,77 @@ const day1_info = {
         "type": ""
     },
     "H1": {
-        "url": "./blank.webp",
+        "url": "./stall_pics/H1.webp",
         "name": "嫣媣居 、杜恩恩的魔法衣櫥 、遙之雪",
         "stall": "3",
         "day": "2",
         "type": "古風服飾出租"
     },
     "H2": {
-        "url": "./blank.webp",
+        "url": "./stall_pics/H2.webp",
         "name": "寧淵閣、宇宙薔薇",
         "stall": "2",
         "day": "2",
         "type": "漢服造型工作室、情境攝影工作室"
     },
     "H3": {
-        "url": "./blank.webp",
+        "url": "./stall_pics/H3.webp",
         "name": "菟·手伯 、影閣、尋他記工作室",
         "stall": "3",
         "day": "2",
         "type": ""
     },
     "H4": {
-        "url": "./blank.webp",
+        "url": "./stall_pics/H4.webp",
         "name": "木顏手花 、妘飾所、媠媠",
         "stall": "3",
         "day": "2",
         "type": ""
     },
     "H5 & H6": {
-        "url": "./blank.webp",
+        "url": "./stall_pics/H5.webp",
         "name": "愛花妍工作室 、 奈何奈生手作坊",
         "stall": "2",
         "day": "2",
         "type": ""
     },
     "H7 & H8": {
-        "url": "./blank.webp",
+        "url": "./stall_pics/H7.webp",
         "name": "幀實作、あ今A-Jin",
         "stall": "2",
         "day": "2",
         "type": ""
     },
     "H9 & H10": {
-        "url": "./blank.webp",
+        "url": "./stall_pics/H9.webp",
         "name": "墨書皇章、鏡花園",
         "stall": "2",
         "day": "2",
         "type": ""
     },
     "H11 & H12": {
-        "url": "./blank.webp",
+        "url": "./stall_pics/H11.webp",
         "name": "貓月亮、貓語醉古風",
         "stall": "2",
         "day": "2",
         "type": ""
     },
     "H13": {
-        "url": "./blank.webp",
+        "url": "./stall_pics/H13.webp",
         "name": "墨染閣寫真攝影棚 、 中華傳統文化藝文協會",
         "stall": "2",
         "day": "2",
         "type": ""
     },
     "H14 & H15": {
-        "url": "./blank.webp",
+        "url": "./stall_pics/H14.webp",
         "name": "鋁孩會館、懿植花手作花坊",
         "stall": "2",
         "day": "2",
         "type": ""
     },
     "H16": {
-        "url": "./blank.webp",
+        "url": "./stall_pics/H16.webp",
         "name": "MAX工作室",
         "stall": "2",
         "day": "2",
@@ -544,43 +544,43 @@ const day2_info = {
         "day": "2",
         "type": "-詳情見「舞台活動」專區-"
     },
-    "C1": {
-        "url": "./blank.webp",
+    "B1": {
+        "url": "./stall_pics/大江戶外萌-場刊圖.webp",
         "name": "大江戶外萌",
         "stall": "2",
         "day": "2",
         "type": "一般向(商業攤)（原神 崩鐵 holo)"
     },
-    "C2": {
-        "url": "./blank.webp",
+    "B2": {
+        "url": "./stall_pics/大江戶外萌-場刊圖.webp",
         "name": "大江戶外萌",
         "stall": "2",
         "day": "2",
         "type": "一般向(商業攤)（原神 崩鐵 holo)"
     },
-    "C3": {
+    "B3": {
         "url": "./blank.webp",
         "name": "W&amp;Y Costudio 攝影窩",
         "stall": "2",
         "day": "2",
         "type": "一般向(Hololive)"
     },
-    "C4": {
+    "B4": {
         "url": "./blank.webp",
         "name": "W&amp;Y Costudio 攝影窩",
         "stall": "2",
         "day": "2",
         "type": "一般向(Hololive)"
     },
-    "C5": {
-        "url": "./blank.webp",
+    "B5": {
+        "url": "./stall_pics/楓玥小築-場刊圖.webp",
         "name": "楓玥小築",
         "stall": "1",
         "day": "2",
         "type": "一般向(Hololive)"
     },
-    "C6": {
-        "url": "./blank.webp",
+    "B6": {
+        "url": "./stall_pics/EYE就是愛玩金屬書籤.webp",
         "name": "EYE就是愛玩金屬書籤",
         "stall": "1",
         "day": "2",
@@ -593,7 +593,7 @@ const day2_info = {
         "day": "2",
         "type": "一般向(商業攤)（原神 崩鐵 holo)"
     },
-    "D16": {
+    "C1": {
         "url": "./stall_pics/同人社團-葉子貓-場刊圖.webp",
         "name": "同人社團-葉子貓",
         "stall": "1",
@@ -607,14 +607,14 @@ const day2_info = {
         "day": "2",
         "type": "一般向(niji en)"
     },
-    "D17": {
+    "C2": {
         "url": "./stall_pics/微光創造-場刊圖.webp",
         "name": "微光創造",
         "stall": "1",
         "day": "1",
         "type": "一般向(鬼滅 魔道)"
     },
-    "D18": {
+    "C3": {
         "url": "./stall_pics/慢慢鳥-場刊圖.webp",
         "name": "慢慢鳥",
         "stall": "1",
@@ -628,7 +628,7 @@ const day2_info = {
         "day": "1",
         "type": "一般向(芙莉蓮 holo 扳機社)"
     },
-    "D19": {
+    "C4": {
         "url": "./stall_pics/魚吃草-場刊圖.webp",
         "name": "魚吃草的日常風景",
         "stall": "1",
@@ -642,14 +642,14 @@ const day2_info = {
         "day": "2",
         "type": "一般向(彩虹 光戀 崩鐵 原神 賽馬娘)"
     },
-    "D20": {
+    "C5": {
         "url": "./stall_pics/山根書店-場刊圖.webp",
         "name": "山根書店",
         "stall": "1",
         "day": "2",
         "type": "一般向（畫集明信片 花）"
     },
-    "D21 & D22": {
+    "C6 & C7": {
         "url": "./stall_pics/可可貓的房子-場刊圖.webp",
         "name": "可可貓的房子",
         "stall": "2",
@@ -663,7 +663,7 @@ const day2_info = {
         "day": "2",
         "type": "一般向（原神 崩鐵 holo 原創小說）"
     },
-    "D23 & D24": {
+    "C8 & C9": {
         "url": "./blank.webp",
         "name": "+喵耳園+",
         "stall": "2",
@@ -684,50 +684,50 @@ const day2_info = {
         "day": "2",
         "type": "一般向（原神 崩鐵 墨三）"
     },
-    "D25": {
-        "url": "./blank.webp",
+    "C10": {
+        "url": "./stall_pics/嘟嚕啦咘嗒-場刊圖.webp",
         "name": "嘟嚕啦咘嗒",
         "stall": "1",
         "day": "1",
         "type": "一般向"
     },
-    "D26": {
-        "url": "./blank.webp",
+    "C11": {
+        "url": "./stall_pics/小碗手作工作坊-場刊圖.webp",
         "name": "小宛手作工作坊",
         "stall": "1",
         "day": "1",
         "type": "一般向"
     },
-    "D27": {
-        "url": "./blank.webp",
+    "C12": {
+        "url": "./stall_pics/南方四重奏-場刊圖.webp",
         "name": "南方四重奏",
         "stall": "1",
         "day": "1",
         "type": "一般向"
     },
-    "D28": {
+    "C13": {
         "url": "./blank.webp",
         "name": "Ncku manga club",
         "stall": "1",
         "day": "1",
         "type": "一般向"
     },
-    "D29": {
-        "url": "./blank.webp",
+    "C14": {
+        "url": "./stall_pics/都進來鏟屎-場刊圖.webp",
         "name": "都進來鏟屎",
         "stall": "1",
         "day": "1",
         "type": "一般向"
     },
-    "D30": {
-        "url": "./blank.webp",
+    "C15": {
+        "url": "./stall_pics/喇密時區入境處-場刊圖.webp",
         "name": "喇密時區入境處",
         "stall": "1",
         "day": "1",
         "type": "一般向"
     },
-    "D31": {
-        "url": "./blank.webp",
+    "C16": {
+        "url": "./stall_pics/吐血貓小P-場刊圖.webp",
         "name": "吐血貓小P",
         "stall": "1",
         "day": "1",
@@ -747,7 +747,7 @@ const day2_info = {
         "day": "2",
         "type": "一般向（孤獨）"
     },
-    "E1 & E2": {
+    "E3 & E4": {
         "url": "./stall_pics/A_D-場刊圖.webp",
         "name": "【A&D】Angels&Devils",
         "stall": "2",
@@ -755,77 +755,77 @@ const day2_info = {
         "type": "女性向(成人)"
     },
     "H1": {
-        "url": "./blank.webp",
+        "url": "./stall_pics/H1.webp",
         "name": "嫣媣居 、杜恩恩的魔法衣櫥 、遙之雪",
         "stall": "3",
         "day": "2",
         "type": "古風服飾出租"
     },
     "H2": {
-        "url": "./blank.webp",
+        "url": "./stall_pics/H2.webp",
         "name": "寧淵閣、宇宙薔薇",
         "stall": "2",
         "day": "2",
         "type": "漢服造型工作室、情境攝影工作室"
     },
     "H3": {
-        "url": "./blank.webp",
+        "url": "./stall_pics/H3.webp",
         "name": "菟·手伯 、影閣、尋他記工作室",
         "stall": "3",
         "day": "2",
         "type": ""
     },
     "H4": {
-        "url": "./blank.webp",
+        "url": "./stall_pics/H4.webp",
         "name": "木顏手花 、妘飾所、媠媠",
         "stall": "3",
         "day": "2",
         "type": ""
     },
     "H5 & H6": {
-        "url": "./blank.webp",
+        "url": "./stall_pics/H5.webp",
         "name": "愛花妍工作室 、 奈何奈生手作坊",
         "stall": "2",
         "day": "2",
         "type": ""
     },
     "H7 & H8": {
-        "url": "./blank.webp",
+        "url": "./stall_pics/H7.webp",
         "name": "幀實作、あ今A-Jin",
         "stall": "2",
         "day": "2",
         "type": ""
     },
     "H9 & H10": {
-        "url": "./blank.webp",
+        "url": "./stall_pics/H9.webp",
         "name": "墨書皇章、鏡花園",
         "stall": "2",
         "day": "2",
         "type": ""
     },
     "H11 & H12": {
-        "url": "./blank.webp",
+        "url": "./stall_pics/H11.webp",
         "name": "貓月亮、貓語醉古風",
         "stall": "2",
         "day": "2",
         "type": ""
     },
     "H13": {
-        "url": "./blank.webp",
+        "url": "./stall_pics/H13.webp",
         "name": "墨染閣寫真攝影棚 、 中華傳統文化藝文協會",
         "stall": "2",
         "day": "2",
         "type": ""
     },
     "H14 & H15": {
-        "url": "./blank.webp",
+        "url": "./stall_pics/H14.webp",
         "name": "鋁孩會館、懿植花手作花坊",
         "stall": "2",
         "day": "2",
         "type": ""
     },
     "H16": {
-        "url": "./blank.webp",
+        "url": "./stall_pics/H16.webp",
         "name": "MAX工作室",
         "stall": "2",
         "day": "2",
@@ -862,13 +862,13 @@ btn.onmousedown = function () {
 };
 
 if (info) {
-    map.addEventListener('mousedown', function (e) {
-        if (info.style.display == "none") dragging = true;
-        else dragging = false;
+    // map.addEventListener('mousedown', function (e) {
+    //     if (info.style.display == "none") dragging = true;
+    //     else dragging = false;
 
-        offset.x = e.clientX - map.getBoundingClientRect().left;
-        offset.y = e.clientY - map.getBoundingClientRect().top;
-    })
+    //     offset.x = e.clientX - map.getBoundingClientRect().left;
+    //     offset.y = e.clientY - map.getBoundingClientRect().top;
+    // })
 
     info.onmousedown = function () {
         info.style.display = "none";
