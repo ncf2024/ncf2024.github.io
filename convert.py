@@ -62,6 +62,6 @@ def convert_image_to_webp(input_folder, output_folder):
 
 
 # Example usage
-input_folder = "./stall_pics"
+input_folder = "./"
 output_folder = "./stall_pics_out"
 convert_image_to_webp(input_folder, output_folder)

@@ -24,6 +24,13 @@ const day1_info = {
         "day": "2",
         "type": "-詳情見「舞台活動」專區-"
     },
+    "A2": {
+        "url": "./picture/group/group_photo/02.webp",
+        "name": "Karei ＆ ooo",
+        "stall": "1",
+        "day": "2",
+        "type": "-詳情見「舞台活動」專區-"
+    },
     "A3": {
         "url": "./picture/group/group_photo/03.webp",
         "name": "社畜也想跳舞",
@@ -470,6 +477,13 @@ const day2_info = {
     "A1": {
         "url": "./picture/group/group_photo/01.webp",
         "name": "もりトピア",
+        "stall": "1",
+        "day": "2",
+        "type": "-詳情見「舞台活動」專區-"
+    },
+    "A2": {
+        "url": "./picture/group/group_photo/02.webp",
+        "name": "Karei ＆ ooo",
         "stall": "1",
         "day": "2",
         "type": "-詳情見「舞台活動」專區-"
