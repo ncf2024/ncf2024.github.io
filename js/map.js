@@ -21,84 +21,84 @@ const day1_info = {
         "url": "./picture/group/group_photo/01.webp",
         "name": "もりトピア",
         "stall": "1",
-        "day": "2",
+        "day": "1",
         "type": "-詳情見「舞台活動」專區-"
     },
     "A2": {
         "url": "./picture/group/group_photo/02.webp",
         "name": "Karei ＆ ooo",
         "stall": "1",
-        "day": "2",
+        "day": "1",
         "type": "-詳情見「舞台活動」專區-"
     },
     "A3": {
         "url": "./picture/group/group_photo/03.webp",
         "name": "社畜也想跳舞",
         "stall": "1",
-        "day": "2",
+        "day": "1",
         "type": "-詳情見「舞台活動」專區-"
     },
     "A4": {
         "url": "./picture/group/group_photo/04.webp",
         "name": "無限のスターダスト",
         "stall": "1",
-        "day": "2",
+        "day": "1",
         "type": "-詳情見「舞台活動」專區-"
     },
     "A5": {
         "url": "./picture/group/group_photo/05.webp",
         "name": "同担拒否",
         "stall": "1",
-        "day": "2",
+        "day": "1",
         "type": "-詳情見「舞台活動」專區-"
     },
     "A6": {
         "url": "./picture/group/group_photo/06.webp",
         "name": "Under the Rose 守密者",
         "stall": "1",
-        "day": "2",
+        "day": "1",
         "type": "-詳情見「舞台活動」專區-"
     },
     "A7": {
         "url": "./picture/group/group_photo/07.webp",
         "name": "存在証明",
         "stall": "1",
-        "day": "2",
+        "day": "1",
         "type": "-詳情見「舞台活動」專區-"
     },
     "A8": {
         "url": "./picture/group/group_photo/08.webp",
         "name": "虹綿菓子",
         "stall": "1",
-        "day": "2",
+        "day": "1",
         "type": "-詳情見「舞台活動」專區-"
     },
     "A9": {
         "url": "./picture/group/group_photo/09.webp",
         "name": "Nomona",
         "stall": "1",
-        "day": "2",
+        "day": "1",
         "type": "-詳情見「舞台活動」專區-"
     },
     "A10": {
         "url": "./picture/group/group_photo/10.webp",
         "name": "薄荷彈珠汽水",
         "stall": "1",
-        "day": "2",
+        "day": "1",
         "type": "-詳情見「舞台活動」專區-"
     },
     "A11": {
         "url": "./picture/group/group_photo/11.webp",
         "name": "悠洛",
         "stall": "1",
-        "day": "2",
+        "day": "1",
         "type": "-詳情見「舞台活動」專區-"
     },
     "A12": {
         "url": "./picture/group/group_photo/12.webp",
         "name": "羅曼史少女＆白星夢",
         "stall": "1",
-        "day": "2",
+        "day": "1",
         "type": "-詳情見「舞台活動」專區-"
     },
     "B1": {
@@ -474,90 +474,6 @@ const day1_info = {
     }
 }
 const day2_info = {
-    "A1": {
-        "url": "./picture/group/group_photo/01.webp",
-        "name": "もりトピア",
-        "stall": "1",
-        "day": "2",
-        "type": "-詳情見「舞台活動」專區-"
-    },
-    "A2": {
-        "url": "./picture/group/group_photo/02.webp",
-        "name": "Karei ＆ ooo",
-        "stall": "1",
-        "day": "2",
-        "type": "-詳情見「舞台活動」專區-"
-    },
-    "A3": {
-        "url": "./picture/group/group_photo/03.webp",
-        "name": "社畜也想跳舞",
-        "stall": "1",
-        "day": "2",
-        "type": "-詳情見「舞台活動」專區-"
-    },
-    "A4": {
-        "url": "./picture/group/group_photo/04.webp",
-        "name": "無限のスターダスト",
-        "stall": "1",
-        "day": "2",
-        "type": "-詳情見「舞台活動」專區-"
-    },
-    "A5": {
-        "url": "./picture/group/group_photo/05.webp",
-        "name": "同担拒否",
-        "stall": "1",
-        "day": "2",
-        "type": "-詳情見「舞台活動」專區-"
-    },
-    "A6": {
-        "url": "./picture/group/group_photo/06.webp",
-        "name": "Under the Rose 守密者",
-        "stall": "1",
-        "day": "2",
-        "type": "-詳情見「舞台活動」專區-"
-    },
-    "A7": {
-        "url": "./picture/group/group_photo/07.webp",
-        "name": "存在証明",
-        "stall": "1",
-        "day": "2",
-        "type": "-詳情見「舞台活動」專區-"
-    },
-    "A8": {
-        "url": "./picture/group/group_photo/08.webp",
-        "name": "虹綿菓子",
-        "stall": "1",
-        "day": "2",
-        "type": "-詳情見「舞台活動」專區-"
-    },
-    "A9": {
-        "url": "./picture/group/group_photo/09.webp",
-        "name": "Nomona",
-        "stall": "1",
-        "day": "2",
-        "type": "-詳情見「舞台活動」專區-"
-    },
-    "A10": {
-        "url": "./picture/group/group_photo/10.webp",
-        "name": "薄荷彈珠汽水",
-        "stall": "1",
-        "day": "2",
-        "type": "-詳情見「舞台活動」專區-"
-    },
-    "A11": {
-        "url": "./picture/group/group_photo/11.webp",
-        "name": "悠洛",
-        "stall": "1",
-        "day": "2",
-        "type": "-詳情見「舞台活動」專區-"
-    },
-    "A12": {
-        "url": "./picture/group/group_photo/12.webp",
-        "name": "羅曼史少女＆白星夢",
-        "stall": "1",
-        "day": "2",
-        "type": "-詳情見「舞台活動」專區-"
-    },
     "B1": {
         "url": "./stall_pics/大江戶外萌-場刊圖.webp",
         "name": "大江戶外萌",
