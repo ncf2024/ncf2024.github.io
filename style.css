@@ -701,40 +701,6 @@ h6 {
         top: 20vh;
     }
 
-    /* .stallpic-bg {
-        width: 60vw;
-        height: 40vh;
-        left: 5vw;
-        top: 5vh;
-    }
-
-    .stallpic {
-        width: 54vw;
-        height: 34vh;
-        left: 8vw;
-        top: 8vh;
-    }
-
-    .stallpic-bg2 {
-        width: 60vw;
-        height: 45vh;
-        left: 5vw;
-        top: 2vh;
-    }
-
-    .with_stallpic2 {
-        width: 54vw;
-        height: 21vh;
-        left: 8vw;
-        top: 3vh;
-    }
-
-    .stallpic2 {
-        width: 54vw;
-        height: 21vh;
-        left: 8vw;
-        top: 25vh;
-    } */
 
     .stall-bar {
         display: none;
@@ -752,7 +718,7 @@ h6 {
     /* stage */
     .group-intro {
         width: 75vw;
-        height: 85vh;
+        height: 90vh;
         display: flex;
         justify-content: center;
 
@@ -763,7 +729,7 @@ h6 {
         max-height: 20vh;
         width: auto;
         height: auto;
-        margin-top: 5vh;
+        margin-top: 7vh;
     }
 
     .straight-photo {
@@ -776,15 +742,20 @@ h6 {
     .team-name {
         font-size: 1.2rem;
         text-align: center;
+        line-height: 1.4rem;
     }
 
 
     .group-content {
         margin-top: 2vh;
-        font-size: 0.8rem;
-        line-height: 1.2rem;
+        font-size: 0.6rem;
+        line-height: 0.8rem;
         width: 40vw;
         height: auto;
+    }
+
+    .mar-up05 {
+        margin-top: -7vh;
     }
 
     .mar-up1 {
