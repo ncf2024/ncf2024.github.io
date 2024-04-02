@@ -32,8 +32,8 @@
 
 
 # # Example usage
-# input_folder = "./"
-# output_folder = "./"
+# input_folder = "./stall_new"
+# output_folder = "./stall_out"
 # convert_psd_to_png(input_folder, output_folder)
 
 
@@ -62,6 +62,6 @@ def convert_image_to_webp(input_folder, output_folder):
 
 
 # Example usage
-input_folder = "./"
+input_folder = "./stall_pics_new"
 output_folder = "./stall_pics_out"
 convert_image_to_webp(input_folder, output_folder)
