@@ -342,7 +342,7 @@ const day1_info = {
         "name": "今天也要吃飯糰嗎",
         "stall": "1",
         "day": "1",
-        "type": "女性向（餅國 新世界狂歡)"
+        "type": "一般向（排少 咒迴)"
     },
 
     "F5 & F6": {
@@ -426,7 +426,7 @@ const day1_info = {
     },
     "H4": {
         "url": "./stall_pics/H4.webp",
-        "name": "木顏手花 、妘飾所、媠媠",
+        "name": "木顏手作 、妘飾所、媠媠",
         "stall": "3",
         "day": "2",
         "type": ""
@@ -752,7 +752,7 @@ const day2_info = {
     },
     "H4": {
         "url": "./stall_pics/H4.webp",
-        "name": "木顏手花 、妘飾所、媠媠",
+        "name": "木顏手作 、妘飾所、媠媠",
         "stall": "3",
         "day": "2",
         "type": ""
