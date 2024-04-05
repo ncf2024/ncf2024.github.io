@@ -642,28 +642,28 @@ const day2_info = {
         "name": "南方四重奏",
         "stall": "1",
         "day": "1",
-        "type": "一般向"
+        "type": "一般向(東方project)"
     },
     "D9": {
         "url": "./stall_pics/都進來鏟屎-場刊圖.webp",
         "name": "都進來鏟屎",
         "stall": "1",
         "day": "1",
-        "type": "一般向"
+        "type": "一般向(貓咪)"
     },
     "D10": {
         "url": "./stall_pics/嘟嚕啦咘嗒-場刊圖.webp",
         "name": "嘟嚕啦咘嗒",
         "stall": "1",
         "day": "1",
-        "type": "一般向"
+        "type": "一般向(jojo的奇妙冒險)"
     },
     "D11": {
         "url": "./stall_pics/吐血貓小P-場刊圖.webp",
         "name": "吐血貓小P",
         "stall": "1",
         "day": "1",
-        "type": "一般向"
+        "type": "一般向(黑執事 東京復仇者)"
     },
 
     "D12": {
@@ -671,21 +671,21 @@ const day2_info = {
         "name": "Ncku manga club",
         "stall": "1",
         "day": "1",
-        "type": "一般向"
+        "type": "一般向(芙莉蓮)"
     },
     "D13": {
         "url": "./stall_pics/喇密時區入境處-場刊圖.webp",
         "name": "喇密時區入境處",
         "stall": "1",
         "day": "1",
-        "type": "一般向"
+        "type": "一般向(原創 VTuber 喇密時區入境處)"
     },
     "D14": {
         "url": "./stall_pics/小碗手作工作坊-場刊圖.webp",
         "name": "小宛手作工作坊",
         "stall": "1",
         "day": "1",
-        "type": "一般向"
+        "type": "一般向(主題性手工穿戴甲)"
     },
 
     // D2 E area
@@ -694,14 +694,14 @@ const day2_info = {
         "name": "玟或珉",
         "stall": "2",
         "day": "1",
-        "type": "女性向"
+        "type": "女性向(原創小說)"
     },
     "E2": {
         "url": "./stall_pics/離月-場刊圖.webp",
         "name": "離月",
         "stall": "2",
         "day": "1",
-        "type": "女性向"
+        "type": "女性向(灌籃高手同人誌)"
     },
     "E3 & E4": {
         "url": "./stall_pics/A_D-場刊圖.webp",
