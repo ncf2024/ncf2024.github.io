@@ -26,13 +26,6 @@ const day1_info = {
         "day": "1",
         "type": "-詳情見「舞台活動」專區-"
     },
-    // "A2": {
-    //     "url": "./picture/group/group_photo/02.webp",
-    //     "name": "Karei ＆ ooo",
-    //     "stall": "1",
-    //     "day": "1",
-    //     "type": "-詳情見「舞台活動」專區-"
-    // },
     "A2": {
         "url": "./picture/group/group_photo/03.webp",
         "name": "社畜也想跳舞",
@@ -137,7 +130,7 @@ const day1_info = {
         "name": "微光創造",
         "stall": "2",
         "day": "2",
-        "type": "女性向(niji en)"
+        "type": "一般向(鬼滅 魔道)"
     },
     "C4": {
         "url": "./stall_pics/同人社團-葉子貓-場刊圖.webp",
@@ -151,14 +144,14 @@ const day1_info = {
         "name": "妄秋香",
         "stall": "2",
         "day": "2",
-        "type": "一般向"
+        "type": "一般向(原神 崩鐵 holo 原創小說)"
     },
     "C7 & C8": {
         "url": "./stall_pics/神奇山羊飛起來-場刊圖.webp",
         "name": "神奇山羊飛起來",
         "stall": "2",
         "day": "2",
-        "type": "一般向"
+        "type": "一般向(彩虹 光戀 崩鐵 原神 賽馬娘)"
     },
     "C9 & C10": {
         "url": "./stall_pics/MOEMOE-場刊圖.webp",
@@ -172,14 +165,14 @@ const day1_info = {
         "name": "班妮動漫",
         "stall": "2",
         "day": "2",
-        "type": ""
+        "type": "一般向(原神 崩鐵 墨三)"
     },
     "C13": {
         "url": "./stall_pics/甲卍甲甲卍-場刊圖.webp",
         "name": "甲卍甲甲卍",
         "stall": "1",
         "day": "2",
-        "type": ""
+        "type": "女性向（偶像夢幻祭 催麥 迪士尼扭曲仙境 無期迷途 東方）"
     },
     "C14 & C15": {
         "url": "./stall_pics/Tabibito-場刊圖.webp",
@@ -194,19 +187,8 @@ const day1_info = {
         "name": "手殘黨",
         "stall": "2",
         "day": "1",
-        "type": ""
+        "type": "一般向（手作 獵人 niji ）"
     },
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -216,14 +198,14 @@ const day1_info = {
         "name": "可可貓的房子",
         "stall": "2",
         "day": "2",
-        "type": ""
+        "type": "一般向（手作）"
     },
     "D3": {
         "url": "./stall_pics/山根書店-場刊圖.webp",
         "name": "山根書店",
         "stall": "1",
         "day": "2",
-        "type": ""
+        "type": "一般向（畫集明信片 花）"
     },
     "D4": {
         "url": "./stall_pics/魚吃草-場刊圖.webp",
@@ -237,63 +219,63 @@ const day1_info = {
         "name": "慢慢鳥",
         "stall": "1",
         "day": "2",
-        "type": ""
+        "type": "一般向（原創鳥鳥)"
     },
     "D6 & D7": {
         "url": "./stall_pics/恐怖白果醬-場刊圖.webp",
         "name": "恐怖白果醬",
         "stall": "2",
         "day": "2",
-        "type": "一般向（孤獨"
+        "type": "一般向（孤獨)"
     },
     "D8": {
         "url": "./stall_pics/紫乃沒有乃-場刊圖.webp",
         "name": "紫乃沒有乃",
         "stall": "1",
         "day": "1",
-        "type": "女性向(成人)（原二）"
+        "type": "一般向（異世界流浪美食家 L團 水星的魔女）"
     },
     "D9": {
         "url": "./stall_pics/藥屋找左邊剩下右邊-場刊圖.webp",
         "name": "藥屋找左邊剩下右邊",
         "stall": "1",
         "day": "1",
-        "type": "彩虹 holo "
+        "type": "女性向（藥師 偶夢幻祭 排少a3)"
     },
     "D10": {
         "url": "./stall_pics/海帶阿海帶-場刊圖.webp",
         "name": "海帶阿海帶",
         "stall": "1",
         "day": "1",
-        "type": ""
+        "type": "女性向（餅國 新世界狂歡)"
     },
     "D11": {
         "url": "./stall_pics/關於蕉民肝硬化那件事-場刊圖.webp",
         "name": "關於蕉民肝硬化那件事",
         "stall": "1",
         "day": "1",
-        "type": ""
+        "type": "女性向(nijien)"
     },
     "D12 & D13": {
         "url": "./stall_pics/野清記事-場刊圖.webp",
         "name": "野清記事",
         "stall": "2",
         "day": "1",
-        "type": ""
+        "type": "女性向(vtuber)"
     },
     "D14": {
         "url": "./stall_pics/炸蝦加工廠-場刊圖.webp",
         "name": "炸蝦加工廠",
         "stall": "1",
         "day": "1",
-        "type": "女性向(成人)"
+        "type": "一般向（Niji plave)"
     },
     "D15": {
         "url": "./stall_pics/卯卯島的卯卯君-場刊圖.webp",
         "name": "卯卯島的卯卯君",
         "stall": "1",
         "day": "1",
-        "type": "男性向(成人)"
+        "type": "一般向(nijien 新世界狂歡）"
     },
 
     // D1 E area
@@ -303,21 +285,21 @@ const day1_info = {
         "name": "有害蕈類集會所",
         "stall": "2",
         "day": "1",
-        "type": ""
+        "type": "男性向(成人)"
     },
     "E3 & E4": {
         "url": "./stall_pics/A_D-場刊圖.webp",
         "name": "【A&D】Angels&Devils",
         "stall": "2",
         "day": "2",
-        "type": "女性向(成人)"
+        "type": "女性向(成人)（原二）"
     },
     "E5": {
         "url": "./stall_pics/一般路過天五推-場刊圖.webp",
         "name": "一般路過天五推",
         "stall": "1",
         "day": "1",
-        "type": ""
+        "type": "女性向(成人)"
     },
     // D1 F area
 
@@ -327,14 +309,14 @@ const day1_info = {
         "name": "旋轉馬鈴薯",
         "stall": "2",
         "day": "1",
-        "type": ""
+        "type": "一般向（進巨 美人魚"
     },
     "F3": {
         "url": "./stall_pics/阿金金的骷髏攤攤-場刊圖.webp",
         "name": "阿金金的骷髏攤攤",
         "stall": "1",
         "day": "1",
-        "type": "女性向（偶像夢幻祭 催麥 迪士尼扭曲仙境 無期迷途 東方)"
+        "type": "一般向（咒迴 派對咖)"
     },
 
     "F4": {
@@ -350,7 +332,7 @@ const day1_info = {
         "name": "動漫貓宅屋&繪閣攝影棚",
         "stall": "2",
         "day": "1",
-        "type": "女性向(vtuber)"
+        "type": "一般向（花亦山 鬼滅 刀亂)"
     },
 
     "F7": {
@@ -358,7 +340,7 @@ const day1_info = {
         "name": "青野君後援會",
         "stall": "1",
         "day": "1",
-        "type": ""
+        "type": "一般向(niji vocaloid 槍彈辯駁 芙莉蓮 阪本）"
     },
 
 
@@ -369,7 +351,7 @@ const day1_info = {
         "name": "紡雲織坊",
         "stall": "2",
         "day": "1",
-        "type": ""
+        "type": "一般向（娃娃）"
     },
 
     "G3": {
@@ -377,7 +359,7 @@ const day1_info = {
         "name": "歐洲人的社團",
         "stall": "1",
         "day": "1",
-        "type": ""
+        "type": "一般向（輕小說)"
     },
 
     "G4": {
@@ -385,21 +367,21 @@ const day1_info = {
         "name": "海苔遊戲工房",
         "stall": "1",
         "day": "1",
-        "type": ""
+        "type": "一般向（人造機械之翼 遊戲週邊)"
     },
     "G5": {
         "url": "./stall_pics/小祭 幻想精靈工坊-場刊圖.webp",
         "name": "小祭 - 幻想妖精工坊",
         "stall": "1",
         "day": "1",
-        "type": ""
+        "type": "一般向（寶可夢 妖錶 動森 獨立遊戲）"
     },
     "G6": {
         "url": "./stall_pics/好朋友工作室-場刊圖.webp",
         "name": "好朋友工作室",
         "stall": "1",
         "day": "1",
-        "type": ""
+        "type": "一般向"
     },
 
     // H area
@@ -553,7 +535,7 @@ const day2_info = {
         "name": "微光創造",
         "stall": "2",
         "day": "2",
-        "type": "女性向(niji en)"
+        "type": "一般向(鬼滅 魔道)"
     },
     "C4": {
         "url": "./stall_pics/同人社團-葉子貓-場刊圖.webp",
@@ -567,14 +549,14 @@ const day2_info = {
         "name": "妄秋香",
         "stall": "2",
         "day": "2",
-        "type": "一般向"
+        "type": "一般向(原神 崩鐵 holo 原創小說)"
     },
     "C7 & C8": {
         "url": "./stall_pics/神奇山羊飛起來-場刊圖.webp",
         "name": "神奇山羊飛起來",
         "stall": "2",
         "day": "2",
-        "type": "一般向"
+        "type": "一般向(彩虹 光戀 崩鐵 原神 賽馬娘)"
     },
     "C9 & C10": {
         "url": "./stall_pics/MOEMOE-場刊圖.webp",
@@ -588,14 +570,14 @@ const day2_info = {
         "name": "班妮動漫",
         "stall": "2",
         "day": "2",
-        "type": ""
+        "type": "一般向(原神 崩鐵 墨三)"
     },
     "C13": {
         "url": "./stall_pics/甲卍甲甲卍-場刊圖.webp",
         "name": "甲卍甲甲卍",
         "stall": "1",
         "day": "2",
-        "type": ""
+        "type": "女性向(偶像夢幻祭 催麥 迪士尼扭曲仙境 無期迷途 東方)"
     },
     "C14 & C15": {
         "url": "./stall_pics/Tabibito-場刊圖.webp",
@@ -616,7 +598,7 @@ const day2_info = {
         "name": "不透船屋",
         "stall": "1",
         "day": "1",
-        "type": "一般向"
+        "type": "一般向(芙莉蓮 holo 扳機社)"
     },
 
     //D2 D area
@@ -625,14 +607,14 @@ const day2_info = {
         "name": "可可貓的房子",
         "stall": "2",
         "day": "2",
-        "type": ""
+        "type": "一般向（手作）"
     },
     "D3": {
         "url": "./stall_pics/山根書店-場刊圖.webp",
         "name": "山根書店",
         "stall": "1",
         "day": "2",
-        "type": ""
+        "type": "一般向（畫集明信片 花）"
     },
     "D4": {
         "url": "./stall_pics/魚吃草-場刊圖.webp",
@@ -646,14 +628,14 @@ const day2_info = {
         "name": "慢慢鳥",
         "stall": "1",
         "day": "2",
-        "type": ""
+        "type": "一般向（原創鳥鳥)"
     },
     "D6 & D7": {
         "url": "./stall_pics/恐怖白果醬-場刊圖.webp",
         "name": "恐怖白果醬",
         "stall": "2",
         "day": "2",
-        "type": "一般向（孤獨"
+        "type": "一般向（孤獨)"
     },
     "D8": {
         "url": "./stall_pics/南方四重奏-場刊圖.webp",
@@ -712,14 +694,14 @@ const day2_info = {
         "name": "玟或珉",
         "stall": "2",
         "day": "1",
-        "type": ""
+        "type": "女性向"
     },
     "E2": {
         "url": "./stall_pics/離月-場刊圖.webp",
         "name": "離月",
         "stall": "2",
         "day": "1",
-        "type": ""
+        "type": "女性向"
     },
     "E3 & E4": {
         "url": "./stall_pics/A_D-場刊圖.webp",
