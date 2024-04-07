@@ -220,7 +220,7 @@ h6 {
     padding: 5%;
     margin: 5%;
     line-height: calc(2rem + 1.5vh);
-    font-size: calc(0.625rem + 1vw);
+    font-size: calc(0.5rem + 1vw);
 }
 
 .service-title {
@@ -449,8 +449,8 @@ h6 {
 
     .service-title {
         font-size: 2rem;
-        line-height: 3rem;
-        padding-bottom: 1rem;
+        line-height: 2.5rem;
+        padding-bottom: 0.5rem;
     }
 
     .intro-rules {
@@ -628,6 +628,11 @@ h6 {
         line-height: 3rem;
         padding-bottom: 1rem;
     }
+
+    .event-rules {
+        max-width: 75vw;
+    }
+
 }
 
 /* 在 md 以下的尺寸 */
@@ -813,7 +818,7 @@ h6 {
     }
 
     .item-block-style {
-        font-size: calc(0.625rem + 1.2vw);
+        font-size: calc(0.625rem + 0.5vw);
         line-height: calc(2rem + 1vh);
     }
 
@@ -821,6 +826,10 @@ h6 {
         font-size: 1.2rem;
         line-height: 1.5rem;
         padding-bottom: 0.5rem;
+    }
+
+    .event-rules {
+        max-width: 75vw;
     }
 }
 
