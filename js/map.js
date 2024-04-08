@@ -694,14 +694,14 @@ const day2_info = {
         "name": "玟或珉",
         "stall": "2",
         "day": "1",
-        "type": "女性向(原創小說)"
+        "type": "女性向(成人 原創小說)"
     },
     "E2": {
         "url": "./stall_pics/離月-場刊圖.webp",
         "name": "離月",
         "stall": "2",
         "day": "1",
-        "type": "女性向(灌籃高手同人誌)"
+        "type": "女性向(成人 灌籃高手同人誌)"
     },
     "E3 & E4": {
         "url": "./stall_pics/A_D-場刊圖.webp",
