@@ -97,7 +97,7 @@ const day1_info = {
         "name": "W&amp;Y Costudio 攝影窩",
         "stall": "2",
         "day": "2",
-        "type": "一般向(Hololive)"
+        "type": "一般向(商業攤)(Hololive)"
     },
 
     "B5": {
@@ -105,14 +105,14 @@ const day1_info = {
         "name": "楓玥小築",
         "stall": "1",
         "day": "2",
-        "type": "一般向(Hololive)"
+        "type": "一般向(商業攤)(Hololive)"
     },
     "B6": {
         "url": "./stall_pics/EYE就是愛玩金屬書籤.webp",
         "name": "EYE就是愛玩金屬書籤",
         "stall": "1",
         "day": "2",
-        "type": "女性向(刀劍亂舞)"
+        "type": "女性向(商業攤)(刀劍亂舞)"
     },
     // D1 C area
 
@@ -123,7 +123,7 @@ const day1_info = {
         "name": "+喵耳園+",
         "stall": "2",
         "day": "2",
-        "type": "一般向"
+        "type": "一般向(原創)"
     },
     "C3": {
         "url": "./stall_pics/微光創造-場刊圖.webp",
@@ -212,7 +212,7 @@ const day1_info = {
         "name": "魚吃草的日常風景",
         "stall": "1",
         "day": "2",
-        "type": "一般向（明信片)"
+        "type": "一般向（空間場景、日常風景、插畫轉3D)"
     },
     "D5": {
         "url": "./stall_pics/慢慢鳥-場刊圖.webp",
@@ -240,7 +240,7 @@ const day1_info = {
         "name": "藥屋找左邊剩下右邊",
         "stall": "1",
         "day": "1",
-        "type": "女性向（藥師 偶夢幻祭 排少a3)"
+        "type": "女性向（藥師 偶像夢幻祭 排少a3)"
     },
     "D10": {
         "url": "./stall_pics/海帶阿海帶-場刊圖.webp",
@@ -275,7 +275,7 @@ const day1_info = {
         "name": "卯卯島的卯卯君",
         "stall": "1",
         "day": "1",
-        "type": "一般向(nijien 新世界狂歡）"
+        "type": "女性向(nijien 新世界狂歡）"
     },
 
     // D1 E area
@@ -285,21 +285,21 @@ const day1_info = {
         "name": "有害蕈類集會所",
         "stall": "2",
         "day": "1",
-        "type": "男性向(成人)"
+        "type": "男性向(成人)(愛玩幼奴系列)"
     },
     "E3 & E4": {
         "url": "./stall_pics/A_D-場刊圖.webp",
         "name": "【A&D】Angels&Devils",
         "stall": "2",
         "day": "2",
-        "type": "女性向(成人)（原二）"
+        "type": "女性向(成人)(新世界狂歡、偶像夢幻祭、原創繪本)"
     },
     "E5": {
         "url": "./stall_pics/一般路過天五推-場刊圖.webp",
         "name": "一般路過天五推",
         "stall": "1",
         "day": "1",
-        "type": "女性向(成人)"
+        "type": "女性向(成人)(刀劍、原創)"
     },
     // D1 F area
 
@@ -316,7 +316,7 @@ const day1_info = {
         "name": "阿金金的骷髏攤攤",
         "stall": "1",
         "day": "1",
-        "type": "一般向（咒迴 派對咖)"
+        "type": "一般向（咒迴 派對咖 原創)"
     },
 
     "F4": {
@@ -381,7 +381,7 @@ const day1_info = {
         "name": "好朋友工作室",
         "stall": "1",
         "day": "1",
-        "type": "一般向"
+        "type": "一般向 (原創 寶可夢)"
     },
 
     // H area
@@ -497,21 +497,21 @@ const day2_info = {
         "name": "W&amp;Y Costudio 攝影窩",
         "stall": "2",
         "day": "2",
-        "type": "一般向(Hololive)"
+        "type": "一般向(商業攤)(Hololive)"
     },
     "B5": {
         "url": "./stall_pics/楓玥小築-場刊圖.webp",
         "name": "楓玥小築",
         "stall": "1",
         "day": "2",
-        "type": "一般向(Hololive)"
+        "type": "一般向(商業攤)(Hololive)"
     },
     "B6": {
         "url": "./stall_pics/EYE就是愛玩金屬書籤.webp",
         "name": "EYE就是愛玩金屬書籤",
         "stall": "1",
         "day": "2",
-        "type": "女性向(刀劍亂舞)"
+        "type": "女性向(商業攤)(刀劍亂舞)"
     },
 
     "B7 & B8": {
@@ -519,7 +519,7 @@ const day2_info = {
         "name": "Deity Mark 祇印工作室",
         "stall": "2",
         "day": "1",
-        "type": "一般向(Hololive、彩虹社、排球少年)"
+        "type": "一般向(商業攤)(Hololive、彩虹社、排球少年)"
     },
 
     //D2 C area
@@ -528,7 +528,7 @@ const day2_info = {
         "name": "+喵耳園+",
         "stall": "2",
         "day": "2",
-        "type": "一般向"
+        "type": "一般向(原創)"
     },
     "C3": {
         "url": "./stall_pics/微光創造-場刊圖.webp",
@@ -621,7 +621,7 @@ const day2_info = {
         "name": "魚吃草的日常風景",
         "stall": "1",
         "day": "2",
-        "type": "一般向（明信片)"
+        "type": "一般向（空間場景、日常風景、插畫轉3D)"
     },
     "D5": {
         "url": "./stall_pics/慢慢鳥-場刊圖.webp",
@@ -663,7 +663,7 @@ const day2_info = {
         "name": "吐血貓小P",
         "stall": "1",
         "day": "1",
-        "type": "一般向(黑執事 東京復仇者)"
+        "type": "女性向(黑執事 東京復仇者)"
     },
 
     "D12": {
@@ -708,7 +708,7 @@ const day2_info = {
         "name": "【A&D】Angels&Devils",
         "stall": "2",
         "day": "2",
-        "type": "女性向(成人)"
+        "type": "女性向(成人)(新世界狂歡、偶像夢幻祭、原創繪本)"
     },
     // H area
     "H1": {
