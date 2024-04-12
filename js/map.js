@@ -455,14 +455,14 @@ const day1_info = {
     "H14 & H15": {
         "url": "./stall_pics/H14.webp",
         "url2": "./stall_pics/H15.webp",
-        "name": "鋁孩會館、懿植花手作花坊",
+        "name": "鋁孩會館、MAX工作室",
         "stall": "2",
         "day": "2",
         "type": ""
     },
     "H16": {
         "url": "./stall_pics/H16.webp",
-        "name": "MAX工作室",
+        "name": "懿植花手作花坊",
         "stall": "2",
         "day": "2",
         "type": ""
@@ -781,14 +781,14 @@ const day2_info = {
     "H14 & H15": {
         "url": "./stall_pics/H14.webp",
         "url2": "./stall_pics/H15.webp",
-        "name": "鋁孩會館、懿植花手作花坊",
+        "name": "鋁孩會館、MAX工作室",
         "stall": "2",
         "day": "2",
         "type": ""
     },
     "H16": {
         "url": "./stall_pics/H16.webp",
-        "name": "MAX工作室",
+        "name": "懿植花手作花坊",
         "stall": "2",
         "day": "2",
         "type": ""
