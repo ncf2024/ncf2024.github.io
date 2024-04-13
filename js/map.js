@@ -470,18 +470,18 @@ const day1_info = {
 }
 const day2_info = {
     "A1": {
-        "url": "./blank.webp",
-        "name": "Kirabase",
-        "stall": "1",
-        "day": "1",
-        "type": ""
-    },
-    "A2": {
-        "url": "./blank.webp",
+        "url": "./picture/group/group_photo/末廣町女僕咖啡.webp",
         "name": "末廣町",
         "stall": "1",
         "day": "1",
-        "type": ""
+        "type": "-詳情見「舞台活動」專區-"
+    },
+    "A2 & A3": {
+        "url": "./picture/group/group_photo/星辰偶像練習生.webp",
+        "name": "Kirabase",
+        "stall": "2",
+        "day": "1",
+        "type": "-詳情見「舞台活動」專區-"
     },
 
     // B area
