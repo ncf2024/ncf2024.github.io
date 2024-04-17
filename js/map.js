@@ -668,7 +668,7 @@ const day2_info = {
 
     "D12": {
         "url": "./stall_pics/Victor-場刊圖.webp",
-        "name": "Ncku manga club",
+        "name": "frieren fan art",
         "stall": "1",
         "day": "1",
         "type": "一般向(芙莉蓮)"

@@ -454,7 +454,8 @@ h6 {
     }
 
     .intro-rules {
-        max-width: 35vw;
+        max-width: 75vw;
+        min-width: 50vw;
     }
 }
 
